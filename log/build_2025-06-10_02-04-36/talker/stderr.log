@@ -1,0 +1,5 @@
+  File "/home/caleb253/internship2025/caleb_ros2_ws/src/install/talker/lib/python3.10/site-packages/talker/main.py", line 14
+    timer period = 0.5
+          ^^^^^^
+SyntaxError: invalid syntax
+

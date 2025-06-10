@@ -1,0 +1,42 @@
+[3.863s] Invoking command in '/home/caleb253/internship2025/caleb_ros2_ws/src/talker': PYTHONPATH=/home/caleb253/internship2025/caleb_ros2_ws/src/build/talker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/caleb253/internship2025/caleb_ros2_ws/src/install/talker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/talker build --build-base /home/caleb253/internship2025/caleb_ros2_ws/src/build/talker/build install --record /home/caleb253/internship2025/caleb_ros2_ws/src/build/talker/install.log --single-version-externally-managed install_data
+[4.902s] running egg_info
+[4.904s] creating ../build/talker/talker.egg-info
+[4.905s] writing ../build/talker/talker.egg-info/PKG-INFO
+[4.909s] writing dependency_links to ../build/talker/talker.egg-info/dependency_links.txt
+[4.909s] writing entry points to ../build/talker/talker.egg-info/entry_points.txt
+[4.910s] writing requirements to ../build/talker/talker.egg-info/requires.txt
+[4.910s] writing top-level names to ../build/talker/talker.egg-info/top_level.txt
+[4.911s] writing manifest file '../build/talker/talker.egg-info/SOURCES.txt'
+[4.912s] reading manifest file '../build/talker/talker.egg-info/SOURCES.txt'
+[4.928s] writing manifest file '../build/talker/talker.egg-info/SOURCES.txt'
+[4.928s] running build
+[4.928s] running build_py
+[4.929s] creating /home/caleb253/internship2025/caleb_ros2_ws/src/build/talker/build
+[4.929s] creating /home/caleb253/internship2025/caleb_ros2_ws/src/build/talker/build/lib
+[4.937s] creating /home/caleb253/internship2025/caleb_ros2_ws/src/build/talker/build/lib/talker
+[4.941s] copying talker/main.py -> /home/caleb253/internship2025/caleb_ros2_ws/src/build/talker/build/lib/talker
+[4.942s] copying talker/__init__.py -> /home/caleb253/internship2025/caleb_ros2_ws/src/build/talker/build/lib/talker
+[4.945s] running install
+[4.945s] running install_lib
+[4.945s] creating /home/caleb253/internship2025/caleb_ros2_ws/src/install/talker/lib/python3.10/site-packages/talker
+[4.946s] copying /home/caleb253/internship2025/caleb_ros2_ws/src/build/talker/build/lib/talker/main.py -> /home/caleb253/internship2025/caleb_ros2_ws/src/install/talker/lib/python3.10/site-packages/talker
+[4.946s] copying /home/caleb253/internship2025/caleb_ros2_ws/src/build/talker/build/lib/talker/__init__.py -> /home/caleb253/internship2025/caleb_ros2_ws/src/install/talker/lib/python3.10/site-packages/talker
+[4.953s] byte-compiling /home/caleb253/internship2025/caleb_ros2_ws/src/install/talker/lib/python3.10/site-packages/talker/main.py to main.cpython-310.pyc
+[4.954s] byte-compiling /home/caleb253/internship2025/caleb_ros2_ws/src/install/talker/lib/python3.10/site-packages/talker/__init__.py to __init__.cpython-310.pyc
+[4.954s] running install_data
+[4.955s] creating /home/caleb253/internship2025/caleb_ros2_ws/src/install/talker/share/ament_index
+[4.955s] creating /home/caleb253/internship2025/caleb_ros2_ws/src/install/talker/share/ament_index/resource_index
+[4.955s]   File "/home/caleb253/internship2025/caleb_ros2_ws/src/install/talker/lib/python3.10/site-packages/talker/main.py", line 14
+[4.955s]     timer period = 0.5
+[4.956s]           ^^^^^^
+[4.956s] SyntaxError: invalid syntax
+[4.957s] 
+[4.958s] creating /home/caleb253/internship2025/caleb_ros2_ws/src/install/talker/share/ament_index/resource_index/packages
+[4.964s] copying resource/talker -> /home/caleb253/internship2025/caleb_ros2_ws/src/install/talker/share/ament_index/resource_index/packages
+[4.965s] copying package.xml -> /home/caleb253/internship2025/caleb_ros2_ws/src/install/talker/share/talker
+[4.965s] running install_egg_info
+[4.968s] Copying ../build/talker/talker.egg-info to /home/caleb253/internship2025/caleb_ros2_ws/src/install/talker/lib/python3.10/site-packages/talker-0.0.0-py3.10.egg-info
+[4.974s] running install_scripts
+[5.030s] Installing talker script to /home/caleb253/internship2025/caleb_ros2_ws/src/install/talker/lib/talker
+[5.032s] writing list of installed files to '/home/caleb253/internship2025/caleb_ros2_ws/src/build/talker/install.log'
+[5.186s] Invoked command in '/home/caleb253/internship2025/caleb_ros2_ws/src/talker' returned '0': PYTHONPATH=/home/caleb253/internship2025/caleb_ros2_ws/src/build/talker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/caleb253/internship2025/caleb_ros2_ws/src/install/talker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/talker build --build-base /home/caleb253/internship2025/caleb_ros2_ws/src/build/talker/build install --record /home/caleb253/internship2025/caleb_ros2_ws/src/build/talker/install.log --single-version-externally-managed install_data
