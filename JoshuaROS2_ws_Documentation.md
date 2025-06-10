@@ -40,25 +40,25 @@ and the folders:
 
 `colcon build` is run again to build the package.
 
-## NDOES
+## NODES
 A node is a file in a ROS package that can be executed. Nodes are created in the package (CPP) folder which is of the same name as the package (for python), and are files of the language type chosen when creating the package. (`node_name.py` or `node_name.cpp`)
 The desired code may then be written.
 
 # PROJECT - CPP PUBLISHER AND PYTHON SUBSRIBER
 This project consisits of a cpp publisher that publishes random numbers between 1 and 12, and a python subscriber that reacts every time the published number is 7.
 _Creating the workspace_
-![alt text](image1_joshua.png)
+![alt text](<Screenshot 2025-06-10 125209.png>)
 _Building and sourcing package_
-![alt text](image2_joshua.png)
+![alt text](<Screenshot 2025-06-10 125755.png>)
 _creating cpp publisher_
-![alt text](image3_joshua.png)
+![alt text](<Screenshot 2025-06-10 130537.png>)
 _creating python subscriber_
-![alt text](image4_joshua.png)
+![alt text](<Screenshot 2025-06-10 130608.png>)
 _vs code_
-![alt text](image5_joshua.png)
+![alt text](<Screenshot 2025-06-10 131008.png>)
 _Publisher code_
-![alt text](image6_joshua.png)
+![alt text](<Screenshot 2025-06-10 131725.png>)
 _Subscriber code_
-![alt text](image7_joshua.png)
+![alt text](<Screenshot 2025-06-10 131753.png>)
 _project demo_
-![alt text](image8_joshua.png)
+![alt text](<Screenshot 2025-06-10 154222.png>)
