@@ -19,7 +19,7 @@ cd src
 ros2 pkg create package_name --build-type ament_python #name of choice for package. ament_python is used to create the package using python, and ament_cmake for C++
 ```
 
-Visual Studio Code is then opened to navigte within the created package by running `code .` in the src folder.
+Visual Studio Code is then opened to navigate within the created package by running `code .` in the src folder.
 Three files are created in the package.These are:
 - `package.xml`
 - `setup.cfg`
