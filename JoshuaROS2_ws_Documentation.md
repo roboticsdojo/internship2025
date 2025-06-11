@@ -45,7 +45,7 @@ A node is a file in a ROS package that can be executed. Nodes are created in the
 The desired code may then be written.
 
 # PROJECT - CPP PUBLISHER AND PYTHON SUBSRIBER
-This project consisits of a cpp publisher that publishes random numbers between 1 and 12, and a python subscriber that reacts every time the published number is 7.
+This project consisits of a cpp publisher that publishes random numbers between 1 and 10, and a python subscriber that reacts every time the published number is 7.
 _Creating the workspace_
 
 ![alt text](<Screenshot 2025-06-10 125209.png>)
