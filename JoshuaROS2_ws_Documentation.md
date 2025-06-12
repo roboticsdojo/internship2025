@@ -19,7 +19,7 @@ cd src
 ros2 pkg create package_name --build-type ament_python #name of choice for package. ament_python is used to create the package using python, and ament_cmake for C++
 ```
 
-Visual Studio Code is then opened to navigte within the created package by running `code .` in the src folder.
+Visual Studio Code is then opened to navigate within the created package by running `code .` in the src folder.
 Three files are created in the package.These are:
 - `package.xml`
 - `setup.cfg`
@@ -45,20 +45,35 @@ A node is a file in a ROS package that can be executed. Nodes are created in the
 The desired code may then be written.
 
 # PROJECT - CPP PUBLISHER AND PYTHON SUBSRIBER
-This project consisits of a cpp publisher that publishes random numbers between 1 and 12, and a python subscriber that reacts every time the published number is 7.
+This project consisits of a cpp publisher that publishes random numbers between 1 and 10, and a python subscriber that reacts every time the published number is 7.
 _Creating the workspace_
+
 ![alt text](<Screenshot 2025-06-10 125209.png>)
+
 _Building and sourcing package_
-![alt text](<Screenshot 2025-06-10 125755.png>)
+
+![alt text](<Screenshot 2025-06-10 125755.png>) 
+
 _creating cpp publisher_
+
 ![alt text](<Screenshot 2025-06-10 130537.png>)
+
 _creating python subscriber_
+
 ![alt text](<Screenshot 2025-06-10 130608.png>)
+
 _vs code_
+
 ![alt text](<Screenshot 2025-06-10 131008.png>)
+
 _Publisher code_
+
 ![alt text](<Screenshot 2025-06-10 131725.png>)
+
 _Subscriber code_
+
 ![alt text](<Screenshot 2025-06-10 131753.png>)
+
 _project demo_
+
 ![alt text](<Screenshot 2025-06-10 154222.png>)
