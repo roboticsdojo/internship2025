@@ -46,15 +46,15 @@ It provides a clean and modular way to organize your robotics software, keeping 
 ```bash
 code .
 ```
-    - Navigate back to the parent derictory `cd ..`
+- Navigate back to the parent derictory `cd ..`
  - To Build the package, run `colcon build`
 
  - Source the Setup Script
  ```bash
     source install/setup.bash
  ```
-### Create a ROS2 Node using Python
-** 1. Create a Python file inside the package:**
+### 4. Create a ROS2 Node using Python
+**1. Create a Python file inside the package:**
 ```bash
         cd ~/ros2_ws/src/my_package/my_package
         touch my_first_node.py
@@ -67,7 +67,7 @@ code .
 **3. Edit my_first_node.py*** 
  - Open the file in VS code using `code .`
  Navigate to my_first_node.py inside my_package directory
- Add the following code:
+ You can add the following code or use your own code:
   ```python
     #!/usr/bin/env python3
 
@@ -100,7 +100,7 @@ code .
 
     setup(
         name=package_name,
-        version='0.0.0',
+        version='1.0.0',
         packages=find_packages(exclude=['test']),
         data_files=[
             ('share/ament_index/resource_index/packages',
@@ -111,8 +111,8 @@ code .
         zip_safe=True,
         maintainer='olumo',
         maintainer_email='olumoruth3@gmail.com',
-        description='TODO: Package description',
-        license='TODO: License declaration',
+        description='A simple ROS 2 package that prints "Hello from ROS2"',
+        license='MIT',
         tests_require=['pytest'],
         entry_points={
             'console_scripts': [
@@ -176,7 +176,7 @@ ros2 pkg create --build-type ament_cmake my_cpp_package --dependencies rclcpp
 ```
 **4. Modify CMakeLists.txt**
 - Open my_cpp_package/CmakeLists.txt
-- Add the executables and install it:
+- Add the executables and install it :
 ```cmake
     add_executable(my_cpp_node src/my_cpp_node.cpp)
     ament_target_dependencies(my_cpp_node rclcpp)
@@ -202,3 +202,158 @@ Results:
 ```csharp
 [INFO] [my_cpp_node]: Hello from C++ node!
 ```
+# Creating a Publisher and a Subscriber Node in ROS2(Python)
+We'll do:
+   A publisher node that publishes messages on a topic.
+
+    A subscriber node that listens to that topic and prints the received messages
+**Prerequisites**
+    Ensure you have:
+    - A valid ROS2 workspace set up (eg `ros2_ws`) and a package created with python support e.g, `my_package`
+        - Follow the steps before this to create a workspace and a package, if you haven't done so.
+
+**Creating the talker Node (`talker.py`)**
+Navigate to the your package directory and create a talker.py file:
+```bash
+    cd ros2_ws/src/my_package/my_package
+    touch talker.py
+```
+Open VSCode in this file and add your python code to the talker.py file:
+```bash 
+  code .
+```
+An example Python Code for the publisher:
+```python
+import rclpy
+from rclpy.node import Node
+from std_msgs.msg import String
+
+class MinimalPublisher(Node):
+    def __init__(self):
+        super().__init__('minimal_publisher')
+        self.publisher_ = self.create_publisher(String, 'chatter', 10)
+        self.timer = self.create_timer(0.5, self.timer_callback)
+        self.i = 0
+
+    def timer_callback(self):
+        msg = String()
+        msg.data = f'Hello ROS 2: {self.i}'
+        self.publisher_.publish(msg)
+        self.get_logger().info(f'Publishing: "{msg.data}"')
+        self.i += 1
+
+def main(args=None):
+    rclpy.init(args=args)
+    node = MinimalPublisher()
+    rclpy.spin(node)
+    node.destroy_node()
+    rclpy.shutdown()
+```
+**Creating the Subscriber Node (`listener.py`)**
+Navigate to the your package directory and create a listener.py file
+```bash
+    cd ros2_ws/src/my_package/my_package
+    touch listener.py
+```
+Open VSCode in this file and add your python code to the listener.py file:
+```bash 
+  code .
+```
+An example Python Code for the subscriber:
+```python
+import rclpy
+from rclpy.node import Node
+from std_msgs.msg import String
+
+class MinimalSubscriber(Node):
+    def __init__(self):
+        super().__init__('minimal_subscriber')
+        self.subscription = self.create_subscription(
+            String,
+            'chatter',
+            self.listener_callback,
+            10)
+
+    def listener_callback(self, msg):
+        self.get_logger().info(f'I heard: "{msg.data}"')
+
+def main(args=None):
+    rclpy.init(args=args)
+    node = MinimalSubscriber()
+    rclpy.spin(node)
+    node.destroy_node()
+    rclpy.shutdown()
+```
+**Updating setup.py**
+- Make Sure your setup.py includes the correct entry points:
+```python
+entry_points={
+    'console_scripts': [
+        'talker = my_package.talker:main',
+        'listener = my_package.listener:main',
+    ],
+},
+```
+**Make the python files Executable**
+ - Run this to ensure ROS2 can run the scripts:
+ ```bash
+ chmod +x my_package/my_package/*.py
+```
+**Build and Source the Workspace**
+From your ROS2 workspace root:
+```bash
+colcon build --packages-select my_package
+source install/setup.bash
+```
+**Running the nodes**
+- In two separate terminals:
+ 
+ Terminal 1(Talker):
+ ```bash
+ source install/setup.bash
+ros2 run my_package talker
+```
+Terminal 2(Listener):
+```bash
+source install/setup.bash
+ros2 run my_package listener
+```
+**Common Error You may Run Into**
+If you run:
+```bash
+ros2 run my_package talker
+```
+and get:
+```pgsql
+No executable found
+```
+Follow thes steps:
+    **Checklist to Fix:**
+    (i).  Are talker.py and listener.py inside my_package/my_package/?
+
+    (ii). Do both have a main() function?
+
+    (iii). Are they listed in setup.py under console_scripts?
+
+    (iv). Have you run colcon build and source install/setup.bash?
+
+    (v). Have you cleaned and rebuilt if needed?
+
+    To clean and rebuild, run:
+```bash
+    rm -rf build/ install/ log/
+    colcon build
+    source install/setup.bash
+```
+    (vi) Check Available Executables
+    Run:
+```bash
+    ros2 pkg executables my_package
+```
+    - If you don't see talker or listener, it means either:
+      (a). File structure is wrong
+      (b). Setup.py is incorrect
+      (c). You forgot to build or source.
+
+
+
