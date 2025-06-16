@@ -1,0 +1,259 @@
+[0.000000] (-) TimerEvent: {}
+[0.000309] (my_robot_pack2) JobQueued: {'identifier': 'my_robot_pack2', 'dependencies': OrderedDict()}
+[0.000417] (my_robot_package) JobQueued: {'identifier': 'my_robot_package', 'dependencies': OrderedDict()}
+[0.000442] (my_robot_pack2) JobStarted: {'identifier': 'my_robot_pack2'}
+[0.014752] (my_robot_package) JobStarted: {'identifier': 'my_robot_package'}
+[0.027035] (my_robot_pack2) JobProgress: {'identifier': 'my_robot_pack2', 'progress': 'cmake'}
+[0.028993] (my_robot_pack2) Command: {'cmd': ['/usr/bin/cmake', '/home/michfiona2002/dojo_robotics_2025/my_robot_pack2', '-DCMAKE_INSTALL_PREFIX=/home/michfiona2002/dojo_robotics_2025/install/my_robot_pack2'], 'cwd': '/home/michfiona2002/dojo_robotics_2025/build/my_robot_pack2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'michfiona2002'), ('GIT_ASKPASS', '/home/michfiona2002/.cursor-server/bin/53b99ce608cba35127ae3a050c1738a959750860/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/michfiona2002'), ('OLDPWD', '/home/michfiona2002/dojo_robotics_2025/my_robot_pack2/src'), ('TERM_PROGRAM_VERSION', '1.0.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-002f93af-1f4c-4bfa-97cf-8d366e72e2f3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/michfiona2002/.cursor-server/bin/53b99ce608cba35127ae3a050c1738a959750860/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/michfiona2002/.cursor-server/bin/53b99ce608cba35127ae3a050c1738a959750860/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/michfiona2002/.cursor-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/michfiona2002/dojo_robotics_2025/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'michfiona2002'), ('NAME', 'DESKTOP-N1PRL73'), ('WSL_INTEROP', '/run/WSL/4653_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/michfiona2002/.cursor-server/bin/53b99ce608cba35127ae3a050c1738a959750860/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/USER/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/USER/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/USER/AppData/Roaming/npm:/mnt/c/Users/USER/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/USER/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/USER/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/USER/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/USER/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/USER/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/USER/AppData/Roaming/npm:/mnt/c/Users/USER/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/USER/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand:/snap/bin:/home/michfiona2002/.cursor-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/michfiona2002/.cursor-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-a3124a088979726f.txt'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-98ebcf9a29.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/michfiona2002/dojo_robotics_2025/install/my_robot_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/michfiona2002/dojo_robotics_2025/build/my_robot_pack2'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/michfiona2002/dojo_robotics_2025/install/my_robot_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_CLI_REMOTE_ENV/w:ELECTRON_RUN_AS_NODE/w:'), ('CMAKE_PREFIX_PATH', '/home/michfiona2002/dojo_robotics_2025/install/my_robot_package:/opt/ros/humble')]), 'shell': False}
+[0.099189] (-) TimerEvent: {}
+[0.199572] (-) TimerEvent: {}
+[0.299993] (-) TimerEvent: {}
+[0.400383] (-) TimerEvent: {}
+[0.452123] (my_robot_pack2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.500535] (-) TimerEvent: {}
+[0.600953] (-) TimerEvent: {}
+[0.701371] (-) TimerEvent: {}
+[0.801717] (-) TimerEvent: {}
+[0.902134] (-) TimerEvent: {}
+[0.905161] (my_robot_pack2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.002256] (-) TimerEvent: {}
+[1.066668] (my_robot_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_robot_package', 'build', '--build-base', '/home/michfiona2002/dojo_robotics_2025/build/my_robot_package/build', 'install', '--record', '/home/michfiona2002/dojo_robotics_2025/build/my_robot_package/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/michfiona2002/dojo_robotics_2025/src/my_robot_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'michfiona2002', 'GIT_ASKPASS': '/home/michfiona2002/.cursor-server/bin/53b99ce608cba35127ae3a050c1738a959750860/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/michfiona2002', 'OLDPWD': '/home/michfiona2002/dojo_robotics_2025/my_robot_pack2/src', 'TERM_PROGRAM_VERSION': '1.0.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-002f93af-1f4c-4bfa-97cf-8d366e72e2f3.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/michfiona2002/.cursor-server/bin/53b99ce608cba35127ae3a050c1738a959750860/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/michfiona2002/.cursor-server/bin/53b99ce608cba35127ae3a050c1738a959750860/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/michfiona2002/.cursor-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/michfiona2002/dojo_robotics_2025/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'michfiona2002', 'NAME': 'DESKTOP-N1PRL73', 'WSL_INTEROP': '/run/WSL/4653_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/michfiona2002/.cursor-server/bin/53b99ce608cba35127ae3a050c1738a959750860/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/USER/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/USER/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/USER/AppData/Roaming/npm:/mnt/c/Users/USER/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/USER/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/USER/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/USER/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/USER/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/USER/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/USER/AppData/Roaming/npm:/mnt/c/Users/USER/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/USER/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand:/snap/bin:/home/michfiona2002/.cursor-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/michfiona2002/.cursor-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-a3124a088979726f.txt', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-98ebcf9a29.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/michfiona2002/dojo_robotics_2025/install/my_robot_package:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/michfiona2002/dojo_robotics_2025/build/my_robot_package', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/michfiona2002/dojo_robotics_2025/build/my_robot_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/michfiona2002/dojo_robotics_2025/install/my_robot_package/lib/python3.10/site-packages:/home/michfiona2002/dojo_robotics_2025/install/my_robot_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'VSCODE_CLI_REMOTE_ENV/w:ELECTRON_RUN_AS_NODE/w:'}, 'shell': False}
+[1.102392] (-) TimerEvent: {}
+[1.149333] (my_robot_pack2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.202578] (-) TimerEvent: {}
+[1.302989] (-) TimerEvent: {}
+[1.327375] (my_robot_pack2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.345414] (my_robot_pack2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.346170] (my_robot_pack2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.347395] (my_robot_pack2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.356968] (my_robot_pack2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.403156] (-) TimerEvent: {}
+[1.413632] (my_robot_package) StdoutLine: {'line': b'running egg_info\n'}
+[1.414941] (my_robot_package) StdoutLine: {'line': b'writing ../../build/my_robot_package/my_robot_package.egg-info/PKG-INFO\n'}
+[1.415377] (my_robot_package) StdoutLine: {'line': b'writing dependency_links to ../../build/my_robot_package/my_robot_package.egg-info/dependency_links.txt\n'}
+[1.415777] (my_robot_package) StdoutLine: {'line': b'writing entry points to ../../build/my_robot_package/my_robot_package.egg-info/entry_points.txt\n'}
+[1.416014] (my_robot_package) StdoutLine: {'line': b'writing requirements to ../../build/my_robot_package/my_robot_package.egg-info/requires.txt\n'}
+[1.416268] (my_robot_package) StdoutLine: {'line': b'writing top-level names to ../../build/my_robot_package/my_robot_package.egg-info/top_level.txt\n'}
+[1.419045] (my_robot_package) StdoutLine: {'line': b"reading manifest file '../../build/my_robot_package/my_robot_package.egg-info/SOURCES.txt'\n"}
+[1.422383] (my_robot_package) StdoutLine: {'line': b"writing manifest file '../../build/my_robot_package/my_robot_package.egg-info/SOURCES.txt'\n"}
+[1.422973] (my_robot_package) StdoutLine: {'line': b'running build\n'}
+[1.423182] (my_robot_package) StdoutLine: {'line': b'running build_py\n'}
+[1.423896] (my_robot_package) StdoutLine: {'line': b'running install\n'}
+[1.424343] (my_robot_package) StdoutLine: {'line': b'running install_lib\n'}
+[1.426435] (my_robot_package) StdoutLine: {'line': b'running install_data\n'}
+[1.426789] (my_robot_package) StdoutLine: {'line': b'copying package.xml -> /home/michfiona2002/dojo_robotics_2025/install/my_robot_package/share/my_robot_package\n'}
+[1.427432] (my_robot_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.432317] (my_robot_package) StdoutLine: {'line': b"removing '/home/michfiona2002/dojo_robotics_2025/install/my_robot_package/lib/python3.10/site-packages/my_robot_package-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.433721] (my_robot_package) StdoutLine: {'line': b'Copying ../../build/my_robot_package/my_robot_package.egg-info to /home/michfiona2002/dojo_robotics_2025/install/my_robot_package/lib/python3.10/site-packages/my_robot_package-0.0.0-py3.10.egg-info\n'}
+[1.435916] (my_robot_package) StdoutLine: {'line': b'running install_scripts\n'}
+[1.470077] (my_robot_package) StdoutLine: {'line': b'Installing listener script to /home/michfiona2002/dojo_robotics_2025/install/my_robot_package/lib/my_robot_package\n'}
+[1.470407] (my_robot_package) StdoutLine: {'line': b'Installing my_first_node script to /home/michfiona2002/dojo_robotics_2025/install/my_robot_package/lib/my_robot_package\n'}
+[1.470981] (my_robot_package) StdoutLine: {'line': b"writing list of installed files to '/home/michfiona2002/dojo_robotics_2025/build/my_robot_package/install.log'\n"}
+[1.499989] (my_robot_package) CommandEnded: {'returncode': 0}
+[1.503303] (-) TimerEvent: {}
+[1.525911] (my_robot_package) JobEnded: {'identifier': 'my_robot_package', 'rc': 0}
+[1.547051] (my_robot_pack2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.555731] (my_robot_pack2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.556794] (my_robot_pack2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.557442] (my_robot_pack2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.583846] (my_robot_pack2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.603515] (-) TimerEvent: {}
+[1.703960] (-) TimerEvent: {}
+[1.804650] (-) TimerEvent: {}
+[1.838032] (my_robot_pack2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.904920] (-) TimerEvent: {}
+[2.005736] (-) TimerEvent: {}
+[2.016695] (my_robot_pack2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.105894] (-) TimerEvent: {}
+[2.206957] (-) TimerEvent: {}
+[2.247298] (my_robot_pack2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.264035] (my_robot_pack2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.287426] (my_robot_pack2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.307201] (-) TimerEvent: {}
+[2.331351] (my_robot_pack2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.375200] (my_robot_pack2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.407369] (-) TimerEvent: {}
+[2.487113] (my_robot_pack2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.495693] (my_robot_pack2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.507518] (-) TimerEvent: {}
+[2.608006] (-) TimerEvent: {}
+[2.708452] (-) TimerEvent: {}
+[2.808827] (-) TimerEvent: {}
+[2.909252] (-) TimerEvent: {}
+[3.009590] (-) TimerEvent: {}
+[3.109989] (-) TimerEvent: {}
+[3.210423] (-) TimerEvent: {}
+[3.310796] (-) TimerEvent: {}
+[3.411234] (-) TimerEvent: {}
+[3.424654] (my_robot_pack2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.511405] (-) TimerEvent: {}
+[3.611814] (-) TimerEvent: {}
+[3.712236] (-) TimerEvent: {}
+[3.812890] (-) TimerEvent: {}
+[3.913456] (-) TimerEvent: {}
+[4.013990] (-) TimerEvent: {}
+[4.114509] (-) TimerEvent: {}
+[4.215127] (-) TimerEvent: {}
+[4.315646] (-) TimerEvent: {}
+[4.416233] (-) TimerEvent: {}
+[4.516685] (-) TimerEvent: {}
+[4.617208] (-) TimerEvent: {}
+[4.717835] (-) TimerEvent: {}
+[4.818446] (-) TimerEvent: {}
+[4.919057] (-) TimerEvent: {}
+[5.019646] (-) TimerEvent: {}
+[5.120092] (-) TimerEvent: {}
+[5.186759] (my_robot_pack2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[5.220369] (-) TimerEvent: {}
+[5.320976] (-) TimerEvent: {}
+[5.421819] (-) TimerEvent: {}
+[5.522472] (-) TimerEvent: {}
+[5.623128] (-) TimerEvent: {}
+[5.723744] (-) TimerEvent: {}
+[5.824243] (-) TimerEvent: {}
+[5.924824] (-) TimerEvent: {}
+[6.025541] (-) TimerEvent: {}
+[6.126949] (-) TimerEvent: {}
+[6.227453] (-) TimerEvent: {}
+[6.328084] (-) TimerEvent: {}
+[6.428699] (-) TimerEvent: {}
+[6.529284] (-) TimerEvent: {}
+[6.629936] (-) TimerEvent: {}
+[6.730532] (-) TimerEvent: {}
+[6.831225] (-) TimerEvent: {}
+[6.931680] (-) TimerEvent: {}
+[7.032235] (-) TimerEvent: {}
+[7.132779] (-) TimerEvent: {}
+[7.233235] (-) TimerEvent: {}
+[7.333676] (-) TimerEvent: {}
+[7.434119] (-) TimerEvent: {}
+[7.534622] (-) TimerEvent: {}
+[7.635382] (-) TimerEvent: {}
+[7.736238] (-) TimerEvent: {}
+[7.836725] (-) TimerEvent: {}
+[7.937371] (-) TimerEvent: {}
+[8.038370] (-) TimerEvent: {}
+[8.125651] (my_robot_pack2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.138503] (-) TimerEvent: {}
+[8.149793] (my_robot_pack2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.238744] (-) TimerEvent: {}
+[8.339442] (-) TimerEvent: {}
+[8.433481] (my_robot_pack2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[8.434303] (my_robot_pack2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[8.439593] (-) TimerEvent: {}
+[8.540118] (-) TimerEvent: {}
+[8.640641] (-) TimerEvent: {}
+[8.685369] (my_robot_pack2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[8.687024] (my_robot_pack2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[8.740793] (-) TimerEvent: {}
+[8.817598] (my_robot_pack2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[8.840937] (-) TimerEvent: {}
+[8.941454] (-) TimerEvent: {}
+[8.969785] (my_robot_pack2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[8.970096] (my_robot_pack2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[8.970202] (my_robot_pack2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[8.973638] (my_robot_pack2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.980006] (my_robot_pack2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[8.980246] (my_robot_pack2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[8.981738] (my_robot_pack2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.986862] (my_robot_pack2) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.010949] (my_robot_pack2) StdoutLine: {'line': b'-- Generating done\n'}
+[9.021303] (my_robot_pack2) StdoutLine: {'line': b'-- Build files have been written to: /home/michfiona2002/dojo_robotics_2025/build/my_robot_pack2\n'}
+[9.041668] (my_robot_pack2) CommandEnded: {'returncode': 0}
+[9.046429] (-) TimerEvent: {}
+[9.047238] (my_robot_pack2) JobProgress: {'identifier': 'my_robot_pack2', 'progress': 'build'}
+[9.047423] (my_robot_pack2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/michfiona2002/dojo_robotics_2025/build/my_robot_pack2', '--', '-j8', '-l8'], 'cwd': '/home/michfiona2002/dojo_robotics_2025/build/my_robot_pack2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'michfiona2002'), ('GIT_ASKPASS', '/home/michfiona2002/.cursor-server/bin/53b99ce608cba35127ae3a050c1738a959750860/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/michfiona2002'), ('OLDPWD', '/home/michfiona2002/dojo_robotics_2025/my_robot_pack2/src'), ('TERM_PROGRAM_VERSION', '1.0.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-002f93af-1f4c-4bfa-97cf-8d366e72e2f3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/michfiona2002/.cursor-server/bin/53b99ce608cba35127ae3a050c1738a959750860/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/michfiona2002/.cursor-server/bin/53b99ce608cba35127ae3a050c1738a959750860/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/michfiona2002/.cursor-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/michfiona2002/dojo_robotics_2025/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'michfiona2002'), ('NAME', 'DESKTOP-N1PRL73'), ('WSL_INTEROP', '/run/WSL/4653_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/michfiona2002/.cursor-server/bin/53b99ce608cba35127ae3a050c1738a959750860/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/USER/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/USER/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/USER/AppData/Roaming/npm:/mnt/c/Users/USER/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/USER/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/USER/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/USER/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/USER/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/USER/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/USER/AppData/Roaming/npm:/mnt/c/Users/USER/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/USER/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand:/snap/bin:/home/michfiona2002/.cursor-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/michfiona2002/.cursor-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-a3124a088979726f.txt'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-98ebcf9a29.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/michfiona2002/dojo_robotics_2025/install/my_robot_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/michfiona2002/dojo_robotics_2025/build/my_robot_pack2'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/michfiona2002/dojo_robotics_2025/install/my_robot_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_CLI_REMOTE_ENV/w:ELECTRON_RUN_AS_NODE/w:'), ('CMAKE_PREFIX_PATH', '/home/michfiona2002/dojo_robotics_2025/install/my_robot_package:/opt/ros/humble')]), 'shell': False}
+[9.132045] (my_robot_pack2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/my_first_node.dir/src/my_first_node.cpp.o\x1b[0m\n'}
+[9.146621] (-) TimerEvent: {}
+[9.247092] (-) TimerEvent: {}
+[9.347760] (-) TimerEvent: {}
+[9.448305] (-) TimerEvent: {}
+[9.548964] (-) TimerEvent: {}
+[9.649435] (-) TimerEvent: {}
+[9.749932] (-) TimerEvent: {}
+[9.850363] (-) TimerEvent: {}
+[9.950901] (-) TimerEvent: {}
+[10.051546] (-) TimerEvent: {}
+[10.152204] (-) TimerEvent: {}
+[10.252749] (-) TimerEvent: {}
+[10.353276] (-) TimerEvent: {}
+[10.453919] (-) TimerEvent: {}
+[10.554670] (-) TimerEvent: {}
+[10.655579] (-) TimerEvent: {}
+[10.756510] (-) TimerEvent: {}
+[10.857087] (-) TimerEvent: {}
+[10.957702] (-) TimerEvent: {}
+[11.058236] (-) TimerEvent: {}
+[11.158705] (-) TimerEvent: {}
+[11.259210] (-) TimerEvent: {}
+[11.359705] (-) TimerEvent: {}
+[11.460207] (-) TimerEvent: {}
+[11.560641] (-) TimerEvent: {}
+[11.661082] (-) TimerEvent: {}
+[11.761641] (-) TimerEvent: {}
+[11.862102] (-) TimerEvent: {}
+[11.962680] (-) TimerEvent: {}
+[12.063175] (-) TimerEvent: {}
+[12.163690] (-) TimerEvent: {}
+[12.264230] (-) TimerEvent: {}
+[12.364731] (-) TimerEvent: {}
+[12.465344] (-) TimerEvent: {}
+[12.565867] (-) TimerEvent: {}
+[12.666435] (-) TimerEvent: {}
+[12.766920] (-) TimerEvent: {}
+[12.867399] (-) TimerEvent: {}
+[12.967970] (-) TimerEvent: {}
+[13.068632] (-) TimerEvent: {}
+[13.169216] (-) TimerEvent: {}
+[13.269709] (-) TimerEvent: {}
+[13.370174] (-) TimerEvent: {}
+[13.470728] (-) TimerEvent: {}
+[13.571345] (-) TimerEvent: {}
+[13.672103] (-) TimerEvent: {}
+[13.772856] (-) TimerEvent: {}
+[13.873555] (-) TimerEvent: {}
+[13.974316] (-) TimerEvent: {}
+[14.075005] (-) TimerEvent: {}
+[14.176076] (-) TimerEvent: {}
+[14.276791] (-) TimerEvent: {}
+[14.377377] (-) TimerEvent: {}
+[14.477872] (-) TimerEvent: {}
+[14.579232] (-) TimerEvent: {}
+[14.680700] (-) TimerEvent: {}
+[14.781250] (-) TimerEvent: {}
+[14.881789] (-) TimerEvent: {}
+[14.982335] (-) TimerEvent: {}
+[15.082741] (-) TimerEvent: {}
+[15.183177] (-) TimerEvent: {}
+[15.283861] (-) TimerEvent: {}
+[15.384337] (-) TimerEvent: {}
+[15.428869] (my_robot_pack2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable my_first_node\x1b[0m\n'}
+[15.484459] (-) TimerEvent: {}
+[15.584920] (-) TimerEvent: {}
+[15.685415] (-) TimerEvent: {}
+[15.747299] (my_robot_pack2) StdoutLine: {'line': b'[100%] Built target my_first_node\n'}
+[15.764100] (my_robot_pack2) CommandEnded: {'returncode': 0}
+[15.766266] (my_robot_pack2) JobProgress: {'identifier': 'my_robot_pack2', 'progress': 'install'}
+[15.780112] (my_robot_pack2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/michfiona2002/dojo_robotics_2025/build/my_robot_pack2'], 'cwd': '/home/michfiona2002/dojo_robotics_2025/build/my_robot_pack2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'michfiona2002'), ('GIT_ASKPASS', '/home/michfiona2002/.cursor-server/bin/53b99ce608cba35127ae3a050c1738a959750860/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/michfiona2002'), ('OLDPWD', '/home/michfiona2002/dojo_robotics_2025/my_robot_pack2/src'), ('TERM_PROGRAM_VERSION', '1.0.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-002f93af-1f4c-4bfa-97cf-8d366e72e2f3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/michfiona2002/.cursor-server/bin/53b99ce608cba35127ae3a050c1738a959750860/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/michfiona2002/.cursor-server/bin/53b99ce608cba35127ae3a050c1738a959750860/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/michfiona2002/.cursor-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/michfiona2002/dojo_robotics_2025/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'michfiona2002'), ('NAME', 'DESKTOP-N1PRL73'), ('WSL_INTEROP', '/run/WSL/4653_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/michfiona2002/.cursor-server/bin/53b99ce608cba35127ae3a050c1738a959750860/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/USER/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/USER/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/USER/AppData/Roaming/npm:/mnt/c/Users/USER/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/USER/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/USER/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/USER/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/USER/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/USER/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/USER/AppData/Roaming/npm:/mnt/c/Users/USER/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/USER/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand:/snap/bin:/home/michfiona2002/.cursor-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/michfiona2002/.cursor-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-a3124a088979726f.txt'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-98ebcf9a29.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/michfiona2002/dojo_robotics_2025/install/my_robot_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/michfiona2002/dojo_robotics_2025/build/my_robot_pack2'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/michfiona2002/dojo_robotics_2025/install/my_robot_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_CLI_REMOTE_ENV/w:ELECTRON_RUN_AS_NODE/w:'), ('CMAKE_PREFIX_PATH', '/home/michfiona2002/dojo_robotics_2025/install/my_robot_package:/opt/ros/humble')]), 'shell': False}
+[15.785583] (-) TimerEvent: {}
+[15.790658] (my_robot_pack2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.792532] (my_robot_pack2) StdoutLine: {'line': b'-- Installing: /home/michfiona2002/dojo_robotics_2025/install/my_robot_pack2/lib/my_robot_pack2/my_first_node\n'}
+[15.793500] (my_robot_pack2) StdoutLine: {'line': b'-- Set runtime path of "/home/michfiona2002/dojo_robotics_2025/install/my_robot_pack2/lib/my_robot_pack2/my_first_node" to ""\n'}
+[15.794995] (my_robot_pack2) StdoutLine: {'line': b'-- Installing: /home/michfiona2002/dojo_robotics_2025/install/my_robot_pack2/share/ament_index/resource_index/package_run_dependencies/my_robot_pack2\n'}
+[15.795634] (my_robot_pack2) StdoutLine: {'line': b'-- Installing: /home/michfiona2002/dojo_robotics_2025/install/my_robot_pack2/share/ament_index/resource_index/parent_prefix_path/my_robot_pack2\n'}
+[15.796707] (my_robot_pack2) StdoutLine: {'line': b'-- Installing: /home/michfiona2002/dojo_robotics_2025/install/my_robot_pack2/share/my_robot_pack2/environment/ament_prefix_path.sh\n'}
+[15.797042] (my_robot_pack2) StdoutLine: {'line': b'-- Installing: /home/michfiona2002/dojo_robotics_2025/install/my_robot_pack2/share/my_robot_pack2/environment/ament_prefix_path.dsv\n'}
+[15.797420] (my_robot_pack2) StdoutLine: {'line': b'-- Installing: /home/michfiona2002/dojo_robotics_2025/install/my_robot_pack2/share/my_robot_pack2/environment/path.sh\n'}
+[15.797754] (my_robot_pack2) StdoutLine: {'line': b'-- Installing: /home/michfiona2002/dojo_robotics_2025/install/my_robot_pack2/share/my_robot_pack2/environment/path.dsv\n'}
+[15.797955] (my_robot_pack2) StdoutLine: {'line': b'-- Installing: /home/michfiona2002/dojo_robotics_2025/install/my_robot_pack2/share/my_robot_pack2/local_setup.bash\n'}
+[15.798155] (my_robot_pack2) StdoutLine: {'line': b'-- Installing: /home/michfiona2002/dojo_robotics_2025/install/my_robot_pack2/share/my_robot_pack2/local_setup.sh\n'}
+[15.798372] (my_robot_pack2) StdoutLine: {'line': b'-- Installing: /home/michfiona2002/dojo_robotics_2025/install/my_robot_pack2/share/my_robot_pack2/local_setup.zsh\n'}
+[15.798708] (my_robot_pack2) StdoutLine: {'line': b'-- Installing: /home/michfiona2002/dojo_robotics_2025/install/my_robot_pack2/share/my_robot_pack2/local_setup.dsv\n'}
+[15.798960] (my_robot_pack2) StdoutLine: {'line': b'-- Installing: /home/michfiona2002/dojo_robotics_2025/install/my_robot_pack2/share/my_robot_pack2/package.dsv\n'}
+[15.799772] (my_robot_pack2) StdoutLine: {'line': b'-- Installing: /home/michfiona2002/dojo_robotics_2025/install/my_robot_pack2/share/ament_index/resource_index/packages/my_robot_pack2\n'}
+[15.800778] (my_robot_pack2) StdoutLine: {'line': b'-- Installing: /home/michfiona2002/dojo_robotics_2025/install/my_robot_pack2/share/my_robot_pack2/cmake/my_robot_pack2Config.cmake\n'}
+[15.801742] (my_robot_pack2) StdoutLine: {'line': b'-- Installing: /home/michfiona2002/dojo_robotics_2025/install/my_robot_pack2/share/my_robot_pack2/cmake/my_robot_pack2Config-version.cmake\n'}
+[15.802305] (my_robot_pack2) StdoutLine: {'line': b'-- Installing: /home/michfiona2002/dojo_robotics_2025/install/my_robot_pack2/share/my_robot_pack2/package.xml\n'}
+[15.805405] (my_robot_pack2) CommandEnded: {'returncode': 0}
+[15.831021] (my_robot_pack2) JobEnded: {'identifier': 'my_robot_pack2', 'rc': 0}
+[15.832631] (-) EventReactorShutdown: {}

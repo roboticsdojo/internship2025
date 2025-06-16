@@ -1,0 +1,4 @@
+[console_scripts]
+listener = my_robot_package.listener:main
+my_first_node = my_robot_package.my_first_node:main
+

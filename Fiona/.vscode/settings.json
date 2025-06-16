@@ -1,0 +1,16 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/fiona2002/internship2025/fiona_ros2_ws/install/robotics_dojo_2025/lib/python3.10/site-packages",
+        "/home/fiona2002/internship2025/fiona_ros2_ws/install/my_package_name/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/fiona2002/internship2025/fiona_ros2_ws/install/robotics_dojo_2025/lib/python3.10/site-packages",
+        "/home/fiona2002/internship2025/fiona_ros2_ws/install/my_package_name/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "ros.distro": "humble",
+    "cmake.sourceDirectory": "/home/fiona2002/internship2025/caleb_ros2_ws/src/cpp_pubsub"
+}
