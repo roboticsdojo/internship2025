@@ -1,0 +1,16 @@
+/home/michfiona2002/dojo_robotics_2025/install/my_robot_pack2/lib/my_robot_pack2/my_first_node
+/home/michfiona2002/dojo_robotics_2025/install/my_robot_pack2/share/ament_index/resource_index/package_run_dependencies/my_robot_pack2
+/home/michfiona2002/dojo_robotics_2025/install/my_robot_pack2/share/ament_index/resource_index/parent_prefix_path/my_robot_pack2
+/home/michfiona2002/dojo_robotics_2025/install/my_robot_pack2/share/my_robot_pack2/environment/ament_prefix_path.sh
+/home/michfiona2002/dojo_robotics_2025/install/my_robot_pack2/share/my_robot_pack2/environment/ament_prefix_path.dsv
+/home/michfiona2002/dojo_robotics_2025/install/my_robot_pack2/share/my_robot_pack2/environment/path.sh
+/home/michfiona2002/dojo_robotics_2025/install/my_robot_pack2/share/my_robot_pack2/environment/path.dsv
+/home/michfiona2002/dojo_robotics_2025/install/my_robot_pack2/share/my_robot_pack2/local_setup.bash
+/home/michfiona2002/dojo_robotics_2025/install/my_robot_pack2/share/my_robot_pack2/local_setup.sh
+/home/michfiona2002/dojo_robotics_2025/install/my_robot_pack2/share/my_robot_pack2/local_setup.zsh
+/home/michfiona2002/dojo_robotics_2025/install/my_robot_pack2/share/my_robot_pack2/local_setup.dsv
+/home/michfiona2002/dojo_robotics_2025/install/my_robot_pack2/share/my_robot_pack2/package.dsv
+/home/michfiona2002/dojo_robotics_2025/install/my_robot_pack2/share/ament_index/resource_index/packages/my_robot_pack2
+/home/michfiona2002/dojo_robotics_2025/install/my_robot_pack2/share/my_robot_pack2/cmake/my_robot_pack2Config.cmake
+/home/michfiona2002/dojo_robotics_2025/install/my_robot_pack2/share/my_robot_pack2/cmake/my_robot_pack2Config-version.cmake
+/home/michfiona2002/dojo_robotics_2025/install/my_robot_pack2/share/my_robot_pack2/package.xml

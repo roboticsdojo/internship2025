@@ -1,0 +1,7 @@
+[0.039s] Invoking command in '/home/michfiona2002/dojo_robotics_2025/build/my_robot_pack2': CMAKE_PREFIX_PATH=/home/michfiona2002/dojo_robotics_2025/install/my_robot_package:/opt/ros/humble /usr/bin/cmake /home/michfiona2002/dojo_robotics_2025/my_robot_pack2 -DCMAKE_INSTALL_PREFIX=/home/michfiona2002/dojo_robotics_2025/install/my_robot_pack2
+[0.119s] [31mCMake Error at CMakeLists.txt:18:
+[0.119s]   Parse error.  Function missing ending ")".  End of file reached.
+[0.119s] 
+[0.120s] [0m
+[0.121s] -- Configuring incomplete, errors occurred!
+[0.372s] Invoked command in '/home/michfiona2002/dojo_robotics_2025/build/my_robot_pack2' returned '1': CMAKE_PREFIX_PATH=/home/michfiona2002/dojo_robotics_2025/install/my_robot_package:/opt/ros/humble /usr/bin/cmake /home/michfiona2002/dojo_robotics_2025/my_robot_pack2 -DCMAKE_INSTALL_PREFIX=/home/michfiona2002/dojo_robotics_2025/install/my_robot_pack2

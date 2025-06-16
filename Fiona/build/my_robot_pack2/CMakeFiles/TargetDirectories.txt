@@ -1,0 +1,10 @@
+/home/michfiona2002/dojo_robotics_2025/build/my_robot_pack2/CMakeFiles/uninstall.dir
+/home/michfiona2002/dojo_robotics_2025/build/my_robot_pack2/CMakeFiles/my_robot_pack2_uninstall.dir
+/home/michfiona2002/dojo_robotics_2025/build/my_robot_pack2/CMakeFiles/my_first_node.dir
+/home/michfiona2002/dojo_robotics_2025/build/my_robot_pack2/CMakeFiles/test.dir
+/home/michfiona2002/dojo_robotics_2025/build/my_robot_pack2/CMakeFiles/edit_cache.dir
+/home/michfiona2002/dojo_robotics_2025/build/my_robot_pack2/CMakeFiles/rebuild_cache.dir
+/home/michfiona2002/dojo_robotics_2025/build/my_robot_pack2/CMakeFiles/list_install_components.dir
+/home/michfiona2002/dojo_robotics_2025/build/my_robot_pack2/CMakeFiles/install.dir
+/home/michfiona2002/dojo_robotics_2025/build/my_robot_pack2/CMakeFiles/install/local.dir
+/home/michfiona2002/dojo_robotics_2025/build/my_robot_pack2/CMakeFiles/install/strip.dir
