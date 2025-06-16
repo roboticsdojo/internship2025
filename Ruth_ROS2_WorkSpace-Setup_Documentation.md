@@ -26,6 +26,7 @@ It provides a clean and modular way to organize your robotics software, keeping 
 
     # Source ROS2 environment
     source /opt/ros/humble/setup.bash
+```
    
 ### 2. Create your Workspace Directory
 
@@ -33,6 +34,7 @@ It provides a clean and modular way to organize your robotics software, keeping 
     mkdir -p ~/ros2_ws/src
     cd ~/ros2_ws
 ```
+
  - `mkdir -p ~/ros2_ws/src`: Creates the workspace folder (`ros2_ws`) with a subdirectory `src` where your ROS2 packages will live.
 
 - `cd ~/ros2_ws`: Navigates to the root of your workspace.
@@ -42,7 +44,7 @@ It provides a clean and modular way to organize your robotics software, keeping 
     cd ~/ros2_ws/src
     ros2 pkg create my_package --build-type ament_python --dependencies rclpy
 ```
-    - To see and edit your package, open it in vs code
+   - To see and edit your package, open it in vs code
 ```bash
 code .
 ```
@@ -329,31 +331,31 @@ No executable found
 ```
 Follow thes steps:
     **Checklist to Fix:**
-    (i).  Are talker.py and listener.py inside my_package/my_package/?
+   (i).  Are talker.py and listener.py inside my_package/my_package/?
 
-    (ii). Do both have a main() function?
+   (ii). Do both have a main() function?
 
-    (iii). Are they listed in setup.py under console_scripts?
+   (iii). Are they listed in setup.py under console_scripts?
 
-    (iv). Have you run colcon build and source install/setup.bash?
+   (iv). Have you run colcon build and source install/setup.bash?
 
-    (v). Have you cleaned and rebuilt if needed?
+   (v). Have you cleaned and rebuilt if needed?
 
-    To clean and rebuild, run:
+   To clean and rebuild, run:
 ```bash
     rm -rf build/ install/ log/
     colcon build
     source install/setup.bash
 ```
-    (vi) Check Available Executables
+   (vi) Check Available Executables
     Run:
 ```bash
     ros2 pkg executables my_package
 ```
-    - If you don't see talker or listener, it means either:
-      (a). File structure is wrong
-      (b). Setup.py is incorrect
-      (c). You forgot to build or source.
+   - If you don't see talker or listener, it means either:
+     (a). File structure is wrong
+     (b). Setup.py is incorrect
+     (c). You forgot to build or source.
 
 
 
