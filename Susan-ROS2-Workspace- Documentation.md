@@ -320,3 +320,298 @@ Create `.py` in `src/`, write ROS 2 code, add to `setup.py`, build, then run usi
 **C++ Node Working:**
 Create `.cpp` in `src/`, edit `CMakeLists.txt`, build with `colcon`, then run using `ros2 run`.
 ```
+```
+# ROS 2 Python Publisher-Subscriber Guide
+
+## Prerequisites
+- ROS 2 (Humble or newer recommended)
+- Python 3.8+
+- Package `my_robot_package` in workspace `dojo_robotics_2025`
+
+## File Structure
+```
+dojo_robotics_2025/
+└── src/
+    └── my_robot_package/
+        ├── my_robot_package/
+        │   ├── __init__.py
+        │   ├── publisher.py    # New publisher node
+        │   └── subscriber.py  # New subscriber node
+        ├── package.xml
+        └── setup.py
+```
+
+## 1. Create Publisher Node
+
+### publisher.py
+```python
+#!/usr/bin/env python3
+
+import rclpy
+from rclpy.node import Node
+from std_msgs.msg import String
+
+class MinimalPublisher(Node):
+    def __init__(self):
+        super().__init__('minimal_publisher')
+        self.publisher_ = self.create_publisher(String, 'topic', 10)
+        timer_period = 1.0  # seconds
+        self.timer = self.create_timer(timer_period, self.timer_callback)
+        self.count = 0
+
+    def timer_callback(self):
+        msg = String()
+        msg.data = f'Hello, world! {self.count}'
+        self.publisher_.publish(msg)
+        self.get_logger().info(f'Publishing: "{msg.data}"')
+        self.count += 1
+
+def main(args=None):
+    rclpy.init(args=args)
+    node = MinimalPublisher()
+    rclpy.spin(node)
+    node.destroy_node()
+    rclpy.shutdown()
+
+if __name__ == '__main__':
+    main()
+```
+
+### Make executable:
+```bash
+chmod +x ~/dojo_robotics_2025/src/my_robot_package/my_robot_package/publisher.py
+```
+
+## 2. Create Subscriber Node
+
+### subscriber.py
+```python
+#!/usr/bin/env python3
+
+import rclpy
+from rclpy.node import Node
+from std_msgs.msg import String
+
+class MinimalSubscriber(Node):
+    def __init__(self):
+        super().__init__('minimal_subscriber')
+        self.subscription = self.create_subscription(
+            String,
+            'topic',  # Must match publisher topic
+            self.listener_callback,
+            10)
+        self.subscription  # prevent unused variable warning
+
+    def listener_callback(self, msg):
+        self.get_logger().info(f'I heard: "{msg.data}"')
+
+def main(args=None):
+    rclpy.init(args=args)
+    node = MinimalSubscriber()
+    rclpy.spin(node)
+    node.destroy_node()
+    rclpy.shutdown()
+
+if __name__ == '__main__':
+    main()
+```
+
+### Make executable:
+```bash
+chmod +x ~/dojo_robotics_2025/src/my_robot_package/my_robot_package/subscriber.py
+```
+
+## 3. Configure Package Files
+
+### Update setup.py
+```python
+from setuptools import setup
+
+package_name = 'my_robot_package'
+
+setup(
+    name=package_name,
+    version='0.0.0',
+    packages=[package_name],
+    data_files=[
+        ('share/ament_index/resource_index/packages',
+            ['resource/' + package_name]),
+        ('share/' + package_name, ['package.xml']),
+    ],
+    install_requires=['setuptools'],
+    zip_safe=True,
+    maintainer='your_name',
+    maintainer_email='your_email@example.com',
+    description='Python publisher-subscriber example',
+    license='Apache License 2.0',
+    tests_require=['pytest'],
+    entry_points={
+        'console_scripts': [
+            'publisher = my_robot_package.publisher:main',
+            'subscriber = my_robot_package.subscriber:main',
+        ],
+    },
+)
+```
+
+### Verify package.xml
+Ensure these dependencies exist:
+```xml
+<exec_depend>rclpy</exec_depend>
+<exec_depend>std_msgs</exec_depend>
+```
+
+## 4. Build and Run
+
+### Build the package:
+```bash
+cd ~/dojo_robotics_2025
+colcon build --packages-select my_robot_package
+source install/setup.bash
+```
+
+### Run the nodes:
+**Terminal 1 - Publisher:**
+```bash
+ros2 run my_robot_package publisher
+```
+Expected output:
+```
+[INFO] [minimal_publisher]: Publishing: "Hello, world! 0"
+[INFO] [minimal_publisher]: Publishing: "Hello, world! 1"
+...
+```
+
+**Terminal 2 - Subscriber:**
+```bash
+ros2 run my_robot_package subscriber
+```
+Expected output:
+```
+[INFO] [minimal_subscriber]: I heard: "Hello, world! 0"
+[INFO] [minimal_subscriber]: I heard: "Hello, world! 1"
+...
+```
+
+
+# ROS 2 C++ Publisher and Subscriber in `my_robot_pack2`
+
+
+## Prerequisites
+- ROS 2 Humble (or other supported version)
+- Workspace: `dojo_robotics_2025`
+- Package: `my_robot_pack2`
+
+## Files Created
+1. `src/minimal_publisher.cpp` - Publisher node
+2. `src/minimal_subscriber.cpp` - Subscriber node
+3. Modified `CMakeLists.txt`
+
+## Implementation Steps
+
+### 1. Create Publisher Node
+```cpp
+#include <chrono>
+#include <memory>
+#include "rclcpp/rclcpp.hpp"
+#include "std_msgs/msg/string.hpp"
+
+using namespace std::chrono_literals;
+
+class MinimalPublisher : public rclcpp::Node {
+public:
+  MinimalPublisher() : Node("minimal_publisher"), count_(0) {
+    publisher_ = this->create_publisher<std_msgs::msg::String>("topic", 10);
+    timer_ = this->create_wall_timer(500ms, std::bind(&MinimalPublisher::timer_callback, this));
+  }
+
+private:
+  void timer_callback() {
+    auto message = std_msgs::msg::String();
+    message.data = "Hello, ROS2! " + std::to_string(count_++);
+    RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.data.c_str());
+    publisher_->publish(message);
+  }
+
+  rclcpp::Publisher<std_msgs::msg::String>::SharedPtr publisher_;
+  rclcpp::TimerBase::SharedPtr timer_;
+  size_t count_;
+};
+
+int main(int argc, char * argv[]) {
+  rclcpp::init(argc, argv);
+  rclcpp::spin(std::make_shared<MinimalPublisher>());
+  rclcpp::shutdown();
+  return 0;
+}
+```
+
+### 2. Create Subscriber Node
+```cpp
+#include "rclcpp/rclcpp.hpp"
+#include "std_msgs/msg/string.hpp"
+
+class MinimalSubscriber : public rclcpp::Node {
+public:
+  MinimalSubscriber() : Node("minimal_subscriber") {
+    subscription_ = this->create_subscription<std_msgs::msg::String>(
+      "topic", 10, std::bind(&MinimalSubscriber::topic_callback, this, std::placeholders::_1));
+  }
+
+private:
+  void topic_callback(const std_msgs::msg::String::SharedPtr msg) {
+    RCLCPP_INFO(this->get_logger(), "Received: '%s'", msg->data.c_str());
+  }
+
+  rclcpp::Subscription<std_msgs::msg::String>::SharedPtr subscription_;
+};
+
+int main(int argc, char * argv[]) {
+  rclcpp::init(argc, argv);
+  rclcpp::spin(std::make_shared<MinimalSubscriber>());
+  rclcpp::shutdown();
+  return 0;
+}
+```
+
+### 3. Update CMakeLists.txt
+Add these lines after `find_package()`:
+```cmake
+add_executable(minimal_publisher src/minimal_publisher.cpp)
+ament_target_dependencies(minimal_publisher rclcpp std_msgs)
+
+add_executable(minimal_subscriber src/minimal_subscriber.cpp)
+ament_target_dependencies(minimal_subscriber rclcpp std_msgs)
+
+install(TARGETS
+  minimal_publisher
+  minimal_subscriber
+  DESTINATION lib/${PROJECT_NAME}
+)
+```
+
+## Building and Running
+1. Build the package:
+```bash
+cd ~/dojo_robotics_2025
+colcon build --packages-select my_robot_pack2
+source install/setup.bash
+```
+
+2. Run in separate terminals:
+```bash
+# Terminal 1
+ros2 run my_robot_pack2 minimal_publisher
+
+# Terminal 2
+ros2 run my_robot_pack2 minimal_subscriber
+```
+
+## Expected Output
+- Publisher terminal will show:
+```
+[INFO] [minimal_publisher]: Publishing: 'Hello, ROS2! 0'
+[INFO] [minimal_publisher]: Publishing: 'Hello, ROS2! 1'
+```
+```
+
