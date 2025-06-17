@@ -1,3 +1,0 @@
-[console_scripts]
-listener = listener.main:main
-
