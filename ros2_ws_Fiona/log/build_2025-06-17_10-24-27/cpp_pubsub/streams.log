@@ -1,0 +1,73 @@
+[0.059s] Invoking command in '/home/michfiona2002/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michfiona2002/dojo_robotics_2025/install/my_robot_package:/opt/ros/humble /usr/bin/cmake /home/michfiona2002/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/michfiona2002/ros2_ws/install/cpp_pubsub
+[0.676s] -- The C compiler identification is GNU 11.4.0
+[1.801s] -- The CXX compiler identification is GNU 11.4.0
+[2.506s] -- Detecting C compiler ABI info
+[2.910s] -- Detecting C compiler ABI info - done
+[2.926s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.928s] -- Detecting C compile features
+[2.930s] -- Detecting C compile features - done
+[2.941s] -- Detecting CXX compiler ABI info
+[3.363s] -- Detecting CXX compiler ABI info - done
+[3.383s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.383s] -- Detecting CXX compile features
+[3.385s] -- Detecting CXX compile features - done
+[3.419s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.823s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.168s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[4.719s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.742s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.782s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.855s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.942s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.152s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.166s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.244s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[11.376s] -- Found FastRTPS: /opt/ros/humble/include  
+[17.342s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[17.382s] -- Looking for pthread.h
+[17.760s] -- Looking for pthread.h - found
+[17.761s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[18.169s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[18.172s] -- Found Threads: TRUE  
+[18.388s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[18.637s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[18.638s] -- Configured cppcheck include dirs: 
+[18.638s] -- Configured cppcheck exclude dirs and/or files: 
+[18.642s] -- Added test 'lint_cmake' to check CMake code style
+[18.646s] -- Added test 'uncrustify' to check C / C++ code style
+[18.647s] -- Configured uncrustify additional arguments: 
+[18.649s] -- Added test 'xmllint' to check XML markup files
+[18.654s] -- Configuring done
+[18.714s] -- Generating done
+[18.733s] -- Build files have been written to: /home/michfiona2002/ros2_ws/build/cpp_pubsub
+[18.757s] Invoked command in '/home/michfiona2002/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michfiona2002/dojo_robotics_2025/install/my_robot_package:/opt/ros/humble /usr/bin/cmake /home/michfiona2002/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/michfiona2002/ros2_ws/install/cpp_pubsub
+[18.763s] Invoking command in '/home/michfiona2002/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michfiona2002/dojo_robotics_2025/install/my_robot_package:/opt/ros/humble /usr/bin/cmake --build /home/michfiona2002/ros2_ws/build/cpp_pubsub -- -j8 -l8
+[18.897s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[18.898s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[32.109s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[32.891s] [ 75%] Built target talker
+[41.502s] [100%] [32m[1mLinking CXX executable listener[0m
+[42.614s] [100%] Built target listener
+[42.645s] Invoked command in '/home/michfiona2002/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michfiona2002/dojo_robotics_2025/install/my_robot_package:/opt/ros/humble /usr/bin/cmake --build /home/michfiona2002/ros2_ws/build/cpp_pubsub -- -j8 -l8
+[42.673s] Invoking command in '/home/michfiona2002/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michfiona2002/dojo_robotics_2025/install/my_robot_package:/opt/ros/humble /usr/bin/cmake --install /home/michfiona2002/ros2_ws/build/cpp_pubsub
+[42.689s] -- Install configuration: ""
+[42.692s] -- Installing: /home/michfiona2002/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[42.696s] -- Set runtime path of "/home/michfiona2002/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[42.697s] -- Installing: /home/michfiona2002/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[42.710s] -- Set runtime path of "/home/michfiona2002/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[42.714s] -- Installing: /home/michfiona2002/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[42.716s] -- Installing: /home/michfiona2002/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[42.719s] -- Installing: /home/michfiona2002/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[42.720s] -- Installing: /home/michfiona2002/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[42.721s] -- Installing: /home/michfiona2002/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[42.722s] -- Installing: /home/michfiona2002/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[42.722s] -- Installing: /home/michfiona2002/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[42.723s] -- Installing: /home/michfiona2002/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[42.724s] -- Installing: /home/michfiona2002/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[42.725s] -- Installing: /home/michfiona2002/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[42.727s] -- Installing: /home/michfiona2002/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[42.729s] -- Installing: /home/michfiona2002/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[42.730s] -- Installing: /home/michfiona2002/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[42.733s] -- Installing: /home/michfiona2002/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[42.733s] -- Installing: /home/michfiona2002/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[42.739s] Invoked command in '/home/michfiona2002/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michfiona2002/dojo_robotics_2025/install/my_robot_package:/opt/ros/humble /usr/bin/cmake --install /home/michfiona2002/ros2_ws/build/cpp_pubsub

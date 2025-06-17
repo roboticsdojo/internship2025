@@ -1,0 +1,3 @@
+[console_scripts]
+talker = talker.main:main
+

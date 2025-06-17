@@ -1,0 +1,244 @@
+[0.336s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.336s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7863478fc250>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x786347a69630>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x786347a69630>>)
+[0.676s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.677s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.677s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.677s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.677s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.677s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.677s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/michfiona2002/ros2_ws'
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(listener) by extensions ['ignore', 'ignore_ament_install']
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(listener) by extension 'ignore'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(listener) by extension 'ignore_ament_install'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(listener) by extensions ['colcon_pkg']
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(listener) by extension 'colcon_pkg'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(listener) by extensions ['colcon_meta']
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(listener) by extension 'colcon_meta'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(listener) by extensions ['ros']
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(listener) by extension 'ros'
+[0.710s] DEBUG:colcon.colcon_core.package_identification:Package 'listener' with type 'ros.ament_python' and name 'listener'
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ignore'
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ignore_ament_install'
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['colcon_pkg']
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'colcon_pkg'
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['colcon_meta']
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'colcon_meta'
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['ros']
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ros'
+[0.715s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_pubsub' with type 'ros.ament_cmake' and name 'cpp_pubsub'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(talker) by extensions ['ignore', 'ignore_ament_install']
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(talker) by extension 'ignore'
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(talker) by extension 'ignore_ament_install'
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(talker) by extensions ['colcon_pkg']
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(talker) by extension 'colcon_pkg'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(talker) by extensions ['colcon_meta']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(talker) by extension 'colcon_meta'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(talker) by extensions ['ros']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(talker) by extension 'ros'
+[0.720s] DEBUG:colcon.colcon_core.package_identification:Package 'talker' with type 'ros.ament_python' and name 'talker'
+[0.720s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.720s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.720s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.720s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.720s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.760s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.760s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.763s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/michfiona2002/ros2_ws/install
+[0.764s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/michfiona2002/dojo_robotics_2025/install
+[0.767s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 295 installed packages in /opt/ros/humble
+[0.784s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.872s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_args' from command line to 'None'
+[0.872s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_target' from command line to 'None'
+[0.872s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.872s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.872s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[0.872s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[0.872s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[0.872s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.872s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.873s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/michfiona2002/ros2_ws/build/cpp_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/michfiona2002/ros2_ws/install/cpp_pubsub', 'merge_install': False, 'path': '/home/michfiona2002/ros2_ws/src/cpp_pubsub', 'symlink_install': False, 'test_result_base': None}
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'listener' build argument 'cmake_args' from command line to 'None'
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'listener' build argument 'cmake_target' from command line to 'None'
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'listener' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'listener' build argument 'cmake_clean_cache' from command line to 'False'
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'listener' build argument 'cmake_clean_first' from command line to 'False'
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'listener' build argument 'cmake_force_configure' from command line to 'False'
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'listener' build argument 'ament_cmake_args' from command line to 'None'
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'listener' build argument 'catkin_cmake_args' from command line to 'None'
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'listener' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.874s] DEBUG:colcon.colcon_core.verb:Building package 'listener' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/michfiona2002/ros2_ws/build/listener', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/michfiona2002/ros2_ws/install/listener', 'merge_install': False, 'path': '/home/michfiona2002/ros2_ws/listener', 'symlink_install': False, 'test_result_base': None}
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'talker' build argument 'cmake_args' from command line to 'None'
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'talker' build argument 'cmake_target' from command line to 'None'
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'talker' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'talker' build argument 'cmake_clean_cache' from command line to 'False'
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'talker' build argument 'cmake_clean_first' from command line to 'False'
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'talker' build argument 'cmake_force_configure' from command line to 'False'
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'talker' build argument 'ament_cmake_args' from command line to 'None'
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'talker' build argument 'catkin_cmake_args' from command line to 'None'
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'talker' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.876s] DEBUG:colcon.colcon_core.verb:Building package 'talker' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/michfiona2002/ros2_ws/build/talker', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/michfiona2002/ros2_ws/install/talker', 'merge_install': False, 'path': '/home/michfiona2002/ros2_ws/talker', 'symlink_install': False, 'test_result_base': None}
+[0.876s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.879s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.880s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/michfiona2002/ros2_ws/src/cpp_pubsub' with build type 'ament_cmake'
+[0.881s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/michfiona2002/ros2_ws/src/cpp_pubsub'
+[0.887s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.887s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.888s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.899s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/michfiona2002/ros2_ws/listener' with build type 'ament_python'
+[0.899s] Level 1:colcon.colcon_core.shell:create_environment_hook('listener', 'ament_prefix_path')
+[0.900s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michfiona2002/ros2_ws/install/listener/share/listener/hook/ament_prefix_path.ps1'
+[0.903s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/michfiona2002/ros2_ws/install/listener/share/listener/hook/ament_prefix_path.dsv'
+[0.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michfiona2002/ros2_ws/install/listener/share/listener/hook/ament_prefix_path.sh'
+[0.906s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.907s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.926s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/michfiona2002/ros2_ws/talker' with build type 'ament_python'
+[0.927s] Level 1:colcon.colcon_core.shell:create_environment_hook('talker', 'ament_prefix_path')
+[0.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michfiona2002/ros2_ws/install/talker/share/talker/hook/ament_prefix_path.ps1'
+[0.932s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/michfiona2002/ros2_ws/install/talker/share/talker/hook/ament_prefix_path.dsv'
+[0.933s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michfiona2002/ros2_ws/install/talker/share/talker/hook/ament_prefix_path.sh'
+[0.935s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.935s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.974s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/michfiona2002/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michfiona2002/ros2_ws/install/talker:/home/michfiona2002/ros2_ws/install/listener:/home/michfiona2002/dojo_robotics_2025/install/my_robot_package:/opt/ros/humble /usr/bin/cmake --build /home/michfiona2002/ros2_ws/build/cpp_pubsub -- -j8 -l8
+[1.693s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/michfiona2002/ros2_ws/listener'
+[1.694s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.694s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.713s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/michfiona2002/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michfiona2002/ros2_ws/install/talker:/home/michfiona2002/ros2_ws/install/listener:/home/michfiona2002/dojo_robotics_2025/install/my_robot_package:/opt/ros/humble /usr/bin/cmake --build /home/michfiona2002/ros2_ws/build/cpp_pubsub -- -j8 -l8
+[1.745s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/michfiona2002/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michfiona2002/ros2_ws/install/talker:/home/michfiona2002/ros2_ws/install/listener:/home/michfiona2002/dojo_robotics_2025/install/my_robot_package:/opt/ros/humble /usr/bin/cmake --install /home/michfiona2002/ros2_ws/build/cpp_pubsub
+[2.605s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/michfiona2002/ros2_ws/talker'
+[2.606s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.606s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.641s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pubsub)
+[2.643s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/michfiona2002/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michfiona2002/ros2_ws/install/talker:/home/michfiona2002/ros2_ws/install/listener:/home/michfiona2002/dojo_robotics_2025/install/my_robot_package:/opt/ros/humble /usr/bin/cmake --install /home/michfiona2002/ros2_ws/build/cpp_pubsub
+[2.649s] Level 1:colcon.colcon_core.environment:checking '/home/michfiona2002/ros2_ws/install/cpp_pubsub' for CMake module files
+[2.651s] Level 1:colcon.colcon_core.environment:checking '/home/michfiona2002/ros2_ws/install/cpp_pubsub' for CMake config files
+[2.652s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pubsub', 'cmake_prefix_path')
+[2.653s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michfiona2002/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.ps1'
+[2.655s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/michfiona2002/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.dsv'
+[2.656s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michfiona2002/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.sh'
+[2.659s] Level 1:colcon.colcon_core.environment:checking '/home/michfiona2002/ros2_ws/install/cpp_pubsub/lib'
+[2.660s] Level 1:colcon.colcon_core.environment:checking '/home/michfiona2002/ros2_ws/install/cpp_pubsub/bin'
+[2.660s] Level 1:colcon.colcon_core.environment:checking '/home/michfiona2002/ros2_ws/install/cpp_pubsub/lib/pkgconfig/cpp_pubsub.pc'
+[2.661s] Level 1:colcon.colcon_core.environment:checking '/home/michfiona2002/ros2_ws/install/cpp_pubsub/lib/python3.10/site-packages'
+[2.661s] Level 1:colcon.colcon_core.environment:checking '/home/michfiona2002/ros2_ws/install/cpp_pubsub/bin'
+[2.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/michfiona2002/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.ps1'
+[2.665s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/michfiona2002/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv'
+[2.666s] INFO:colcon.colcon_core.shell:Creating package script '/home/michfiona2002/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.sh'
+[2.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/michfiona2002/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.bash'
+[2.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/michfiona2002/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.zsh'
+[2.673s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/michfiona2002/ros2_ws/install/cpp_pubsub/share/colcon-core/packages/cpp_pubsub)
+[2.675s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pubsub)
+[2.676s] Level 1:colcon.colcon_core.environment:checking '/home/michfiona2002/ros2_ws/install/cpp_pubsub' for CMake module files
+[2.678s] Level 1:colcon.colcon_core.environment:checking '/home/michfiona2002/ros2_ws/install/cpp_pubsub' for CMake config files
+[2.679s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pubsub', 'cmake_prefix_path')
+[2.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michfiona2002/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.ps1'
+[2.682s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/michfiona2002/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.dsv'
+[2.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michfiona2002/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.sh'
+[2.685s] Level 1:colcon.colcon_core.environment:checking '/home/michfiona2002/ros2_ws/install/cpp_pubsub/lib'
+[2.686s] Level 1:colcon.colcon_core.environment:checking '/home/michfiona2002/ros2_ws/install/cpp_pubsub/bin'
+[2.686s] Level 1:colcon.colcon_core.environment:checking '/home/michfiona2002/ros2_ws/install/cpp_pubsub/lib/pkgconfig/cpp_pubsub.pc'
+[2.687s] Level 1:colcon.colcon_core.environment:checking '/home/michfiona2002/ros2_ws/install/cpp_pubsub/lib/python3.10/site-packages'
+[2.688s] Level 1:colcon.colcon_core.environment:checking '/home/michfiona2002/ros2_ws/install/cpp_pubsub/bin'
+[2.689s] INFO:colcon.colcon_core.shell:Creating package script '/home/michfiona2002/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.ps1'
+[2.691s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/michfiona2002/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv'
+[2.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/michfiona2002/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.sh'
+[2.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/michfiona2002/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.bash'
+[2.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/michfiona2002/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.zsh'
+[2.697s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/michfiona2002/ros2_ws/install/cpp_pubsub/share/colcon-core/packages/cpp_pubsub)
+[3.772s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/michfiona2002/ros2_ws/listener': PYTHONPATH=/home/michfiona2002/ros2_ws/build/listener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/michfiona2002/ros2_ws/install/listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/listener build --build-base /home/michfiona2002/ros2_ws/build/listener/build install --record /home/michfiona2002/ros2_ws/build/listener/install.log --single-version-externally-managed install_data
+[3.868s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/michfiona2002/ros2_ws/talker': PYTHONPATH=/home/michfiona2002/ros2_ws/build/talker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/michfiona2002/ros2_ws/install/talker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/talker build --build-base /home/michfiona2002/ros2_ws/build/talker/build install --record /home/michfiona2002/ros2_ws/build/talker/install.log --single-version-externally-managed install_data
+[4.685s] Level 1:colcon.colcon_core.environment:checking '/home/michfiona2002/ros2_ws/install/listener' for CMake module files
+[4.687s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/michfiona2002/ros2_ws/listener' returned '0': PYTHONPATH=/home/michfiona2002/ros2_ws/build/listener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/michfiona2002/ros2_ws/install/listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/listener build --build-base /home/michfiona2002/ros2_ws/build/listener/build install --record /home/michfiona2002/ros2_ws/build/listener/install.log --single-version-externally-managed install_data
+[4.688s] Level 1:colcon.colcon_core.environment:checking '/home/michfiona2002/ros2_ws/install/listener' for CMake config files
+[4.689s] Level 1:colcon.colcon_core.environment:checking '/home/michfiona2002/ros2_ws/install/listener/lib'
+[4.690s] Level 1:colcon.colcon_core.environment:checking '/home/michfiona2002/ros2_ws/install/listener/bin'
+[4.690s] Level 1:colcon.colcon_core.environment:checking '/home/michfiona2002/ros2_ws/install/listener/lib/pkgconfig/listener.pc'
+[4.691s] Level 1:colcon.colcon_core.environment:checking '/home/michfiona2002/ros2_ws/install/listener/lib/python3.10/site-packages'
+[4.692s] Level 1:colcon.colcon_core.shell:create_environment_hook('listener', 'pythonpath')
+[4.692s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michfiona2002/ros2_ws/install/listener/share/listener/hook/pythonpath.ps1'
+[4.694s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/michfiona2002/ros2_ws/install/listener/share/listener/hook/pythonpath.dsv'
+[4.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michfiona2002/ros2_ws/install/listener/share/listener/hook/pythonpath.sh'
+[4.697s] Level 1:colcon.colcon_core.environment:checking '/home/michfiona2002/ros2_ws/install/listener/bin'
+[4.698s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(listener)
+[4.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/michfiona2002/ros2_ws/install/listener/share/listener/package.ps1'
+[4.700s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/michfiona2002/ros2_ws/install/listener/share/listener/package.dsv'
+[4.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/michfiona2002/ros2_ws/install/listener/share/listener/package.sh'
+[4.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/michfiona2002/ros2_ws/install/listener/share/listener/package.bash'
+[4.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/michfiona2002/ros2_ws/install/listener/share/listener/package.zsh'
+[4.704s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/michfiona2002/ros2_ws/install/listener/share/colcon-core/packages/listener)
+[4.778s] Level 1:colcon.colcon_core.environment:checking '/home/michfiona2002/ros2_ws/install/talker' for CMake module files
+[4.780s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/michfiona2002/ros2_ws/talker' returned '0': PYTHONPATH=/home/michfiona2002/ros2_ws/build/talker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/michfiona2002/ros2_ws/install/talker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/talker build --build-base /home/michfiona2002/ros2_ws/build/talker/build install --record /home/michfiona2002/ros2_ws/build/talker/install.log --single-version-externally-managed install_data
+[4.780s] Level 1:colcon.colcon_core.environment:checking '/home/michfiona2002/ros2_ws/install/talker' for CMake config files
+[4.782s] Level 1:colcon.colcon_core.environment:checking '/home/michfiona2002/ros2_ws/install/talker/lib'
+[4.782s] Level 1:colcon.colcon_core.environment:checking '/home/michfiona2002/ros2_ws/install/talker/bin'
+[4.783s] Level 1:colcon.colcon_core.environment:checking '/home/michfiona2002/ros2_ws/install/talker/lib/pkgconfig/talker.pc'
+[4.783s] Level 1:colcon.colcon_core.environment:checking '/home/michfiona2002/ros2_ws/install/talker/lib/python3.10/site-packages'
+[4.783s] Level 1:colcon.colcon_core.shell:create_environment_hook('talker', 'pythonpath')
+[4.784s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michfiona2002/ros2_ws/install/talker/share/talker/hook/pythonpath.ps1'
+[4.785s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/michfiona2002/ros2_ws/install/talker/share/talker/hook/pythonpath.dsv'
+[4.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michfiona2002/ros2_ws/install/talker/share/talker/hook/pythonpath.sh'
+[4.787s] Level 1:colcon.colcon_core.environment:checking '/home/michfiona2002/ros2_ws/install/talker/bin'
+[4.787s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(talker)
+[4.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/michfiona2002/ros2_ws/install/talker/share/talker/package.ps1'
+[4.789s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/michfiona2002/ros2_ws/install/talker/share/talker/package.dsv'
+[4.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/michfiona2002/ros2_ws/install/talker/share/talker/package.sh'
+[4.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/michfiona2002/ros2_ws/install/talker/share/talker/package.bash'
+[4.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/michfiona2002/ros2_ws/install/talker/share/talker/package.zsh'
+[4.793s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/michfiona2002/ros2_ws/install/talker/share/colcon-core/packages/talker)
+[4.793s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.795s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.795s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.795s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.878s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[4.878s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.878s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.878s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.878s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[4.879s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.879s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/michfiona2002/ros2_ws/install/local_setup.ps1'
+[4.881s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/michfiona2002/ros2_ws/install/_local_setup_util_ps1.py'
+[4.884s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/michfiona2002/ros2_ws/install/setup.ps1'
+[4.887s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/michfiona2002/ros2_ws/install/local_setup.sh'
+[4.889s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/michfiona2002/ros2_ws/install/_local_setup_util_sh.py'
+[4.891s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/michfiona2002/ros2_ws/install/setup.sh'
+[4.894s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/michfiona2002/ros2_ws/install/local_setup.bash'
+[4.895s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/michfiona2002/ros2_ws/install/setup.bash'
+[4.898s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/michfiona2002/ros2_ws/install/local_setup.zsh'
+[4.899s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/michfiona2002/ros2_ws/install/setup.zsh'

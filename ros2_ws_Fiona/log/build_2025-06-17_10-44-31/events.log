@@ -1,0 +1,122 @@
+[0.000000] (-) TimerEvent: {}
+[0.000635] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.001446] (listener) JobQueued: {'identifier': 'listener', 'dependencies': OrderedDict()}
+[0.001589] (talker) JobQueued: {'identifier': 'talker', 'dependencies': OrderedDict()}
+[0.001649] (listener) JobStarted: {'identifier': 'listener'}
+[0.034967] (talker) JobStarted: {'identifier': 'talker'}
+[0.097400] (-) TimerEvent: {}
+[0.198130] (-) TimerEvent: {}
+[0.299122] (-) TimerEvent: {}
+[0.399851] (-) TimerEvent: {}
+[0.500506] (-) TimerEvent: {}
+[0.601074] (-) TimerEvent: {}
+[0.701743] (-) TimerEvent: {}
+[0.802532] (-) TimerEvent: {}
+[0.903763] (-) TimerEvent: {}
+[1.004700] (-) TimerEvent: {}
+[1.105261] (-) TimerEvent: {}
+[1.205886] (-) TimerEvent: {}
+[1.306508] (-) TimerEvent: {}
+[1.407241] (-) TimerEvent: {}
+[1.508104] (-) TimerEvent: {}
+[1.608834] (-) TimerEvent: {}
+[1.709675] (-) TimerEvent: {}
+[1.810361] (-) TimerEvent: {}
+[1.911128] (-) TimerEvent: {}
+[2.011771] (-) TimerEvent: {}
+[2.112545] (-) TimerEvent: {}
+[2.213183] (-) TimerEvent: {}
+[2.314123] (-) TimerEvent: {}
+[2.414879] (-) TimerEvent: {}
+[2.515610] (-) TimerEvent: {}
+[2.616682] (-) TimerEvent: {}
+[2.717931] (-) TimerEvent: {}
+[2.819093] (-) TimerEvent: {}
+[2.920216] (-) TimerEvent: {}
+[3.021080] (-) TimerEvent: {}
+[3.029548] (listener) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/listener', 'build', '--build-base', '/home/michfiona2002/ros2_ws/build/listener/build', 'install', '--record', '/home/michfiona2002/ros2_ws/build/listener/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/michfiona2002/ros2_ws/listener', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'michfiona2002', 'GIT_ASKPASS': '/home/michfiona2002/.cursor-server/bin/979ba33804ac150108481c14e0b5cb970bda3260/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/michfiona2002', 'OLDPWD': '/home/michfiona2002/ros2_ws', 'TERM_PROGRAM_VERSION': '1.1.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-7a15607a-76c7-4f79-a839-c48b5e1a0ad2.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/michfiona2002/.cursor-server/bin/979ba33804ac150108481c14e0b5cb970bda3260/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/michfiona2002/.cursor-server/bin/979ba33804ac150108481c14e0b5cb970bda3260/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/michfiona2002/ros2_ws/install:/home/michfiona2002/dojo_robotics_2025/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'michfiona2002', 'NAME': 'DESKTOP-N1PRL73', 'WSL_INTEROP': '/run/WSL/54900_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/michfiona2002/.cursor-server/bin/979ba33804ac150108481c14e0b5cb970bda3260/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/USER/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/USER/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/USER/AppData/Roaming/npm:/mnt/c/Users/USER/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/USER/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/USER/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/USER/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/USER/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/USER/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/USER/AppData/Roaming/npm:/mnt/c/Users/USER/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/USER/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-7601df463e.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/michfiona2002/ros2_ws/install/cpp_pubsub:/home/michfiona2002/dojo_robotics_2025/install/my_robot_package:/home/michfiona2002/dojo_robotics_2025/install/my_robot_pack2:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/michfiona2002/ros2_ws/build/listener', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/michfiona2002/ros2_ws/build/listener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/michfiona2002/ros2_ws/install/listener/lib/python3.10/site-packages:/home/michfiona2002/dojo_robotics_2025/install/my_robot_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/michfiona2002/ros2_ws/install/cpp_pubsub:/home/michfiona2002/dojo_robotics_2025/install/my_robot_pack2', 'WSLENV': 'VSCODE_CLI_REMOTE_ENV/w:ELECTRON_RUN_AS_NODE/w:'}, 'shell': False}
+[3.044403] (talker) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/talker', 'build', '--build-base', '/home/michfiona2002/ros2_ws/build/talker/build', 'install', '--record', '/home/michfiona2002/ros2_ws/build/talker/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/michfiona2002/ros2_ws/talker', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'michfiona2002', 'GIT_ASKPASS': '/home/michfiona2002/.cursor-server/bin/979ba33804ac150108481c14e0b5cb970bda3260/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/michfiona2002', 'OLDPWD': '/home/michfiona2002/ros2_ws', 'TERM_PROGRAM_VERSION': '1.1.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-7a15607a-76c7-4f79-a839-c48b5e1a0ad2.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/michfiona2002/.cursor-server/bin/979ba33804ac150108481c14e0b5cb970bda3260/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/michfiona2002/.cursor-server/bin/979ba33804ac150108481c14e0b5cb970bda3260/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/michfiona2002/ros2_ws/install:/home/michfiona2002/dojo_robotics_2025/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'michfiona2002', 'NAME': 'DESKTOP-N1PRL73', 'WSL_INTEROP': '/run/WSL/54900_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/michfiona2002/.cursor-server/bin/979ba33804ac150108481c14e0b5cb970bda3260/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/USER/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/USER/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/USER/AppData/Roaming/npm:/mnt/c/Users/USER/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/USER/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/USER/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/USER/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/USER/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/USER/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/USER/AppData/Roaming/npm:/mnt/c/Users/USER/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/USER/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-7601df463e.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/michfiona2002/ros2_ws/install/cpp_pubsub:/home/michfiona2002/dojo_robotics_2025/install/my_robot_package:/home/michfiona2002/dojo_robotics_2025/install/my_robot_pack2:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/michfiona2002/ros2_ws/build/talker', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/michfiona2002/ros2_ws/build/talker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/michfiona2002/ros2_ws/install/talker/lib/python3.10/site-packages:/home/michfiona2002/dojo_robotics_2025/install/my_robot_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/michfiona2002/ros2_ws/install/cpp_pubsub:/home/michfiona2002/dojo_robotics_2025/install/my_robot_pack2', 'WSLENV': 'VSCODE_CLI_REMOTE_ENV/w:ELECTRON_RUN_AS_NODE/w:'}, 'shell': False}
+[3.121289] (-) TimerEvent: {}
+[3.222106] (-) TimerEvent: {}
+[3.323071] (-) TimerEvent: {}
+[3.423894] (-) TimerEvent: {}
+[3.525049] (-) TimerEvent: {}
+[3.625960] (-) TimerEvent: {}
+[3.726554] (-) TimerEvent: {}
+[3.750135] (listener) StdoutLine: {'line': b'running egg_info\n'}
+[3.752323] (listener) StdoutLine: {'line': b'creating ../build/listener/listener.egg-info\n'}
+[3.755260] (listener) StdoutLine: {'line': b'writing ../build/listener/listener.egg-info/PKG-INFO\n'}
+[3.756634] (listener) StdoutLine: {'line': b'writing dependency_links to ../build/listener/listener.egg-info/dependency_links.txt\n'}
+[3.759037] (listener) StdoutLine: {'line': b'writing entry points to ../build/listener/listener.egg-info/entry_points.txt\n'}
+[3.759818] (listener) StdoutLine: {'line': b'writing requirements to ../build/listener/listener.egg-info/requires.txt\n'}
+[3.760756] (listener) StdoutLine: {'line': b'writing top-level names to ../build/listener/listener.egg-info/top_level.txt\n'}
+[3.761582] (talker) StdoutLine: {'line': b'running egg_info\n'}
+[3.761945] (listener) StdoutLine: {'line': b"writing manifest file '../build/listener/listener.egg-info/SOURCES.txt'\n"}
+[3.762650] (talker) StdoutLine: {'line': b'creating ../build/talker/talker.egg-info\n'}
+[3.765286] (talker) StdoutLine: {'line': b'writing ../build/talker/talker.egg-info/PKG-INFO\n'}
+[3.768356] (talker) StdoutLine: {'line': b'writing dependency_links to ../build/talker/talker.egg-info/dependency_links.txt\n'}
+[3.768982] (talker) StdoutLine: {'line': b'writing entry points to ../build/talker/talker.egg-info/entry_points.txt\n'}
+[3.769611] (listener) StdoutLine: {'line': b"reading manifest file '../build/listener/listener.egg-info/SOURCES.txt'\n"}
+[3.770331] (talker) StdoutLine: {'line': b'writing requirements to ../build/talker/talker.egg-info/requires.txt\n'}
+[3.770753] (talker) StdoutLine: {'line': b'writing top-level names to ../build/talker/talker.egg-info/top_level.txt\n'}
+[3.771236] (talker) StdoutLine: {'line': b"writing manifest file '../build/talker/talker.egg-info/SOURCES.txt'\n"}
+[3.772297] (listener) StdoutLine: {'line': b"writing manifest file '../build/listener/listener.egg-info/SOURCES.txt'\n"}
+[3.772743] (listener) StdoutLine: {'line': b'running build\n'}
+[3.773246] (listener) StdoutLine: {'line': b'running build_py\n'}
+[3.773967] (listener) StdoutLine: {'line': b'creating /home/michfiona2002/ros2_ws/build/listener/build\n'}
+[3.774638] (listener) StdoutLine: {'line': b'creating /home/michfiona2002/ros2_ws/build/listener/build/lib\n'}
+[3.776524] (listener) StdoutLine: {'line': b'creating /home/michfiona2002/ros2_ws/build/listener/build/lib/listener\n'}
+[3.777363] (talker) StdoutLine: {'line': b"reading manifest file '../build/talker/talker.egg-info/SOURCES.txt'\n"}
+[3.777818] (listener) StdoutLine: {'line': b'copying listener/listener.py -> /home/michfiona2002/ros2_ws/build/listener/build/lib/listener\n'}
+[3.778244] (listener) StdoutLine: {'line': b'copying listener/__init__.py -> /home/michfiona2002/ros2_ws/build/listener/build/lib/listener\n'}
+[3.778853] (listener) StdoutLine: {'line': b'running install\n'}
+[3.779812] (talker) StdoutLine: {'line': b"writing manifest file '../build/talker/talker.egg-info/SOURCES.txt'\n"}
+[3.780174] (listener) StdoutLine: {'line': b'running install_lib\n'}
+[3.780864] (talker) StdoutLine: {'line': b'running build\n'}
+[3.781103] (talker) StdoutLine: {'line': b'running build_py\n'}
+[3.781977] (talker) StdoutLine: {'line': b'creating /home/michfiona2002/ros2_ws/build/talker/build\n'}
+[3.782275] (listener) StdoutLine: {'line': b'creating /home/michfiona2002/ros2_ws/install/listener/lib/python3.10/site-packages/listener\n'}
+[3.782685] (talker) StdoutLine: {'line': b'creating /home/michfiona2002/ros2_ws/build/talker/build/lib\n'}
+[3.783294] (listener) StdoutLine: {'line': b'copying /home/michfiona2002/ros2_ws/build/listener/build/lib/listener/listener.py -> /home/michfiona2002/ros2_ws/install/listener/lib/python3.10/site-packages/listener\n'}
+[3.783854] (talker) StdoutLine: {'line': b'creating /home/michfiona2002/ros2_ws/build/talker/build/lib/talker\n'}
+[3.784661] (listener) StdoutLine: {'line': b'copying /home/michfiona2002/ros2_ws/build/listener/build/lib/listener/__init__.py -> /home/michfiona2002/ros2_ws/install/listener/lib/python3.10/site-packages/listener\n'}
+[3.785276] (talker) StdoutLine: {'line': b'copying talker/__init__.py -> /home/michfiona2002/ros2_ws/build/talker/build/lib/talker\n'}
+[3.785775] (talker) StdoutLine: {'line': b'copying talker/talker.py -> /home/michfiona2002/ros2_ws/build/talker/build/lib/talker\n'}
+[3.786375] (listener) StdoutLine: {'line': b'byte-compiling /home/michfiona2002/ros2_ws/install/listener/lib/python3.10/site-packages/listener/listener.py to listener.cpython-310.pyc\n'}
+[3.787226] (talker) StdoutLine: {'line': b'running install\n'}
+[3.788334] (talker) StdoutLine: {'line': b'running install_lib\n'}
+[3.789668] (listener) StdoutLine: {'line': b'byte-compiling /home/michfiona2002/ros2_ws/install/listener/lib/python3.10/site-packages/listener/__init__.py to __init__.cpython-310.pyc\n'}
+[3.790615] (listener) StdoutLine: {'line': b'running install_data\n'}
+[3.790804] (talker) StdoutLine: {'line': b'creating /home/michfiona2002/ros2_ws/install/talker/lib/python3.10/site-packages/talker\n'}
+[3.790975] (listener) StdoutLine: {'line': b'creating /home/michfiona2002/ros2_ws/install/listener/share/ament_index\n'}
+[3.791499] (talker) StdoutLine: {'line': b'copying /home/michfiona2002/ros2_ws/build/talker/build/lib/talker/__init__.py -> /home/michfiona2002/ros2_ws/install/talker/lib/python3.10/site-packages/talker\n'}
+[3.791984] (listener) StdoutLine: {'line': b'creating /home/michfiona2002/ros2_ws/install/listener/share/ament_index/resource_index\n'}
+[3.792368] (talker) StdoutLine: {'line': b'copying /home/michfiona2002/ros2_ws/build/talker/build/lib/talker/talker.py -> /home/michfiona2002/ros2_ws/install/talker/lib/python3.10/site-packages/talker\n'}
+[3.792854] (listener) StdoutLine: {'line': b'creating /home/michfiona2002/ros2_ws/install/listener/share/ament_index/resource_index/packages\n'}
+[3.793856] (listener) StdoutLine: {'line': b'copying resource/listener -> /home/michfiona2002/ros2_ws/install/listener/share/ament_index/resource_index/packages\n'}
+[3.794650] (talker) StdoutLine: {'line': b'byte-compiling /home/michfiona2002/ros2_ws/install/talker/lib/python3.10/site-packages/talker/__init__.py to __init__.cpython-310.pyc\n'}
+[3.794823] (listener) StdoutLine: {'line': b'copying package.xml -> /home/michfiona2002/ros2_ws/install/listener/share/listener\n'}
+[3.795442] (listener) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.796362] (talker) StdoutLine: {'line': b'byte-compiling /home/michfiona2002/ros2_ws/install/talker/lib/python3.10/site-packages/talker/talker.py to talker.cpython-310.pyc\n'}
+[3.797306] (talker) StdoutLine: {'line': b'running install_data\n'}
+[3.797744] (talker) StdoutLine: {'line': b'creating /home/michfiona2002/ros2_ws/install/talker/share/ament_index\n'}
+[3.798807] (talker) StdoutLine: {'line': b'creating /home/michfiona2002/ros2_ws/install/talker/share/ament_index/resource_index\n'}
+[3.799937] (talker) StdoutLine: {'line': b'creating /home/michfiona2002/ros2_ws/install/talker/share/ament_index/resource_index/packages\n'}
+[3.800694] (listener) StdoutLine: {'line': b'Copying ../build/listener/listener.egg-info to /home/michfiona2002/ros2_ws/install/listener/lib/python3.10/site-packages/listener-0.0.0-py3.10.egg-info\n'}
+[3.801296] (talker) StdoutLine: {'line': b'copying resource/talker -> /home/michfiona2002/ros2_ws/install/talker/share/ament_index/resource_index/packages\n'}
+[3.801758] (talker) StdoutLine: {'line': b'copying package.xml -> /home/michfiona2002/ros2_ws/install/talker/share/talker\n'}
+[3.802338] (talker) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.806271] (listener) StdoutLine: {'line': b'running install_scripts\n'}
+[3.807010] (talker) StdoutLine: {'line': b'Copying ../build/talker/talker.egg-info to /home/michfiona2002/ros2_ws/install/talker/lib/python3.10/site-packages/talker-0.0.0-py3.10.egg-info\n'}
+[3.812462] (talker) StdoutLine: {'line': b'running install_scripts\n'}
+[3.826860] (-) TimerEvent: {}
+[3.870215] (listener) StdoutLine: {'line': b'Installing listener script to /home/michfiona2002/ros2_ws/install/listener/lib/listener\n'}
+[3.871654] (listener) StdoutLine: {'line': b"writing list of installed files to '/home/michfiona2002/ros2_ws/build/listener/install.log'\n"}
+[3.884051] (talker) StdoutLine: {'line': b'Installing talker script to /home/michfiona2002/ros2_ws/install/talker/lib/talker\n'}
+[3.886678] (talker) StdoutLine: {'line': b"writing list of installed files to '/home/michfiona2002/ros2_ws/build/talker/install.log'\n"}
+[3.927206] (-) TimerEvent: {}
+[3.937705] (listener) CommandEnded: {'returncode': 0}
+[3.983832] (listener) JobEnded: {'identifier': 'listener', 'rc': 0}
+[3.988258] (talker) CommandEnded: {'returncode': 0}
+[4.012033] (talker) JobEnded: {'identifier': 'talker', 'rc': 0}
+[4.015019] (-) EventReactorShutdown: {}

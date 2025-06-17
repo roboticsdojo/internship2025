@@ -1,0 +1,21 @@
+[2.701s] Invoking command in '/home/michfiona2002/ros2_ws/talker': PYTHONPATH=/home/michfiona2002/ros2_ws/build/talker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/michfiona2002/ros2_ws/install/talker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/talker build --build-base /home/michfiona2002/ros2_ws/build/talker/build install --record /home/michfiona2002/ros2_ws/build/talker/install.log --single-version-externally-managed install_data
+[3.515s] running egg_info
+[3.517s] writing ../build/talker/talker.egg-info/PKG-INFO
+[3.518s] writing dependency_links to ../build/talker/talker.egg-info/dependency_links.txt
+[3.519s] writing entry points to ../build/talker/talker.egg-info/entry_points.txt
+[3.520s] writing requirements to ../build/talker/talker.egg-info/requires.txt
+[3.520s] writing top-level names to ../build/talker/talker.egg-info/top_level.txt
+[3.527s] reading manifest file '../build/talker/talker.egg-info/SOURCES.txt'
+[3.532s] writing manifest file '../build/talker/talker.egg-info/SOURCES.txt'
+[3.533s] running build
+[3.533s] running build_py
+[3.533s] running install
+[3.534s] running install_lib
+[3.539s] running install_data
+[3.540s] running install_egg_info
+[3.551s] removing '/home/michfiona2002/ros2_ws/install/talker/lib/python3.10/site-packages/talker-0.0.0-py3.10.egg-info' (and everything under it)
+[3.553s] Copying ../build/talker/talker.egg-info to /home/michfiona2002/ros2_ws/install/talker/lib/python3.10/site-packages/talker-0.0.0-py3.10.egg-info
+[3.557s] running install_scripts
+[3.616s] Installing talker script to /home/michfiona2002/ros2_ws/install/talker/lib/talker
+[3.617s] writing list of installed files to '/home/michfiona2002/ros2_ws/build/talker/install.log'
+[3.679s] Invoked command in '/home/michfiona2002/ros2_ws/talker' returned '0': PYTHONPATH=/home/michfiona2002/ros2_ws/build/talker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/michfiona2002/ros2_ws/install/talker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/talker build --build-base /home/michfiona2002/ros2_ws/build/talker/build install --record /home/michfiona2002/ros2_ws/build/talker/install.log --single-version-externally-managed install_data

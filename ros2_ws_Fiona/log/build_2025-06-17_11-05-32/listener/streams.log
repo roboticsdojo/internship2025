@@ -1,0 +1,21 @@
+[2.690s] Invoking command in '/home/michfiona2002/ros2_ws/listener': PYTHONPATH=/home/michfiona2002/ros2_ws/build/listener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/michfiona2002/ros2_ws/install/listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/listener build --build-base /home/michfiona2002/ros2_ws/build/listener/build install --record /home/michfiona2002/ros2_ws/build/listener/install.log --single-version-externally-managed install_data
+[3.500s] running egg_info
+[3.502s] writing ../build/listener/listener.egg-info/PKG-INFO
+[3.503s] writing dependency_links to ../build/listener/listener.egg-info/dependency_links.txt
+[3.503s] writing entry points to ../build/listener/listener.egg-info/entry_points.txt
+[3.504s] writing requirements to ../build/listener/listener.egg-info/requires.txt
+[3.505s] writing top-level names to ../build/listener/listener.egg-info/top_level.txt
+[3.509s] reading manifest file '../build/listener/listener.egg-info/SOURCES.txt'
+[3.511s] writing manifest file '../build/listener/listener.egg-info/SOURCES.txt'
+[3.512s] running build
+[3.512s] running build_py
+[3.513s] running install
+[3.514s] running install_lib
+[3.517s] running install_data
+[3.517s] running install_egg_info
+[3.523s] removing '/home/michfiona2002/ros2_ws/install/listener/lib/python3.10/site-packages/listener-0.0.0-py3.10.egg-info' (and everything under it)
+[3.526s] Copying ../build/listener/listener.egg-info to /home/michfiona2002/ros2_ws/install/listener/lib/python3.10/site-packages/listener-0.0.0-py3.10.egg-info
+[3.531s] running install_scripts
+[3.603s] Installing listener script to /home/michfiona2002/ros2_ws/install/listener/lib/listener
+[3.604s] writing list of installed files to '/home/michfiona2002/ros2_ws/build/listener/install.log'
+[3.673s] Invoked command in '/home/michfiona2002/ros2_ws/listener' returned '0': PYTHONPATH=/home/michfiona2002/ros2_ws/build/listener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/michfiona2002/ros2_ws/install/listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/listener build --build-base /home/michfiona2002/ros2_ws/build/listener/build install --record /home/michfiona2002/ros2_ws/build/listener/install.log --single-version-externally-managed install_data

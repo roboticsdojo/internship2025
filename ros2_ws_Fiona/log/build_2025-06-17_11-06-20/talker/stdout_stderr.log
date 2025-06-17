@@ -1,0 +1,22 @@
+running egg_info
+writing ../build/talker/talker.egg-info/PKG-INFO
+writing dependency_links to ../build/talker/talker.egg-info/dependency_links.txt
+writing entry points to ../build/talker/talker.egg-info/entry_points.txt
+writing requirements to ../build/talker/talker.egg-info/requires.txt
+writing top-level names to ../build/talker/talker.egg-info/top_level.txt
+reading manifest file '../build/talker/talker.egg-info/SOURCES.txt'
+writing manifest file '../build/talker/talker.egg-info/SOURCES.txt'
+running build
+running build_py
+copying talker/main.py -> /home/michfiona2002/ros2_ws/build/talker/build/lib/talker
+running install
+running install_lib
+copying /home/michfiona2002/ros2_ws/build/talker/build/lib/talker/main.py -> /home/michfiona2002/ros2_ws/install/talker/lib/python3.10/site-packages/talker
+byte-compiling /home/michfiona2002/ros2_ws/install/talker/lib/python3.10/site-packages/talker/main.py to main.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/michfiona2002/ros2_ws/install/talker/lib/python3.10/site-packages/talker-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/talker/talker.egg-info to /home/michfiona2002/ros2_ws/install/talker/lib/python3.10/site-packages/talker-0.0.0-py3.10.egg-info
+running install_scripts
+Installing talker script to /home/michfiona2002/ros2_ws/install/talker/lib/talker
+writing list of installed files to '/home/michfiona2002/ros2_ws/build/talker/install.log'

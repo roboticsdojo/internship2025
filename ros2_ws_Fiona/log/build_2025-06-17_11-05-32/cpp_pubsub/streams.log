@@ -1,0 +1,24 @@
+[0.071s] Invoking command in '/home/michfiona2002/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michfiona2002/ros2_ws/install/talker:/home/michfiona2002/ros2_ws/install/listener:/home/michfiona2002/dojo_robotics_2025/install/my_robot_package:/opt/ros/humble /usr/bin/cmake --build /home/michfiona2002/ros2_ws/build/cpp_pubsub -- -j8 -l8
+[0.917s] [ 50%] Built target talker
+[0.920s] [100%] Built target listener
+[0.924s] Invoked command in '/home/michfiona2002/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michfiona2002/ros2_ws/install/talker:/home/michfiona2002/ros2_ws/install/listener:/home/michfiona2002/dojo_robotics_2025/install/my_robot_package:/opt/ros/humble /usr/bin/cmake --build /home/michfiona2002/ros2_ws/build/cpp_pubsub -- -j8 -l8
+[0.954s] Invoking command in '/home/michfiona2002/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michfiona2002/ros2_ws/install/talker:/home/michfiona2002/ros2_ws/install/listener:/home/michfiona2002/dojo_robotics_2025/install/my_robot_package:/opt/ros/humble /usr/bin/cmake --install /home/michfiona2002/ros2_ws/build/cpp_pubsub
+[1.644s] -- Install configuration: ""
+[1.645s] -- Up-to-date: /home/michfiona2002/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[1.646s] -- Up-to-date: /home/michfiona2002/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[1.647s] -- Up-to-date: /home/michfiona2002/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[1.648s] -- Up-to-date: /home/michfiona2002/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[1.650s] -- Up-to-date: /home/michfiona2002/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[1.651s] -- Up-to-date: /home/michfiona2002/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[1.651s] -- Up-to-date: /home/michfiona2002/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[1.652s] -- Up-to-date: /home/michfiona2002/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[1.652s] -- Up-to-date: /home/michfiona2002/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[1.653s] -- Up-to-date: /home/michfiona2002/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[1.653s] -- Up-to-date: /home/michfiona2002/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[1.654s] -- Up-to-date: /home/michfiona2002/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[1.654s] -- Up-to-date: /home/michfiona2002/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[1.660s] -- Up-to-date: /home/michfiona2002/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[1.661s] -- Up-to-date: /home/michfiona2002/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[1.664s] -- Up-to-date: /home/michfiona2002/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[1.666s] -- Up-to-date: /home/michfiona2002/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[1.667s] Invoked command in '/home/michfiona2002/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michfiona2002/ros2_ws/install/talker:/home/michfiona2002/ros2_ws/install/listener:/home/michfiona2002/dojo_robotics_2025/install/my_robot_package:/opt/ros/humble /usr/bin/cmake --install /home/michfiona2002/ros2_ws/build/cpp_pubsub
