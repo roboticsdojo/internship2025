@@ -1,0 +1,21 @@
+# ROS 2 and build files
+build/
+install/
+log/
+*.pyc
+*.pyo
+__pycache__/
+*.swp
+*.swo
+*.orig
+*~
+
+# IDE-specific files (optional)
+.vscode/
+.idea/
+*.code-workspace
+
+# Other generated files
+*.msg
+*.srv
+*.action

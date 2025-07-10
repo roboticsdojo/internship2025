@@ -1,3 +1,0 @@
-[console_scripts]
-test_node = robotic_dojo.my_first_node:main
-

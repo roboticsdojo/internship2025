@@ -1,2 +1,0 @@
-Invoking command in '/home/michfiona2002/dojo_robotics_2025/build/my_robot_pack2': /usr/bin/cmake /home/michfiona2002/dojo_robotics_2025/my_robot_pack2 -DCMAKE_INSTALL_PREFIX=/home/michfiona2002/dojo_robotics_2025/install/my_robot_pack2
-Invoked command in '/home/michfiona2002/dojo_robotics_2025/build/my_robot_pack2' returned '1': /usr/bin/cmake /home/michfiona2002/dojo_robotics_2025/my_robot_pack2 -DCMAKE_INSTALL_PREFIX=/home/michfiona2002/dojo_robotics_2025/install/my_robot_pack2

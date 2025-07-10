@@ -1,7 +1,0 @@
-[0.062s] Invoking command in '/home/michfiona2002/dojo_robotics_2025/build/my_robot_pack2': /usr/bin/cmake /home/michfiona2002/dojo_robotics_2025/my_robot_pack2 -DCMAKE_INSTALL_PREFIX=/home/michfiona2002/dojo_robotics_2025/install/my_robot_pack2
-[0.220s] [31mCMake Error at CMakeLists.txt:18:
-[0.220s]   Parse error.  Function missing ending ")".  End of file reached.
-[0.220s] 
-[0.220s] [0m
-[0.222s] -- Configuring incomplete, errors occurred!
-[0.569s] Invoked command in '/home/michfiona2002/dojo_robotics_2025/build/my_robot_pack2' returned '1': /usr/bin/cmake /home/michfiona2002/dojo_robotics_2025/my_robot_pack2 -DCMAKE_INSTALL_PREFIX=/home/michfiona2002/dojo_robotics_2025/install/my_robot_pack2
