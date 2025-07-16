@@ -19,7 +19,7 @@ class ArduinoBridge(Node):
         
         # Robot parameters (adjust for your hardware)
         self.WHEEL_RADIUS = 0.0325  # meters
-        self.WHEEL_SEPARATION = 0.022  # meters
+        self.WHEEL_SEPARATION = 0.22  # meters
         self.TICKS_PER_REVOLUTION = 136 # Encoder ticks per wheel revolution
         
         # Subscriber for velocity commands
