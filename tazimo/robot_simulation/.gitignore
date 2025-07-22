@@ -25,9 +25,3 @@ Thumbs.db
 *.launch.pyc
 *.yamlc 
 
-# Ignore all README files
-README*
-readme*
-*.README
-*.readme
-*.md 
