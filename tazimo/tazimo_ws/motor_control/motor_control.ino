@@ -17,7 +17,8 @@ Encoder enc1(2, 3); // Motor 1 encoder (interrupt pins)
 #define ENC2_B A1
 
 // ===== Constants =====
-const int BAUD_RATE = 115200;
+const int BAUD_RATE = 9600;
+
 const int CONTROL_RATE = 50; // Hz (20ms interval)
 
 // ===== Global Variables =====

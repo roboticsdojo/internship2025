@@ -48,17 +48,32 @@ class ArduinoBridge(Node):
         command = f"V{left_speed:.2f},{right_speed:.2f}\n"
         self.serial.write(command.encode())
 
-    def read_serial(self):
-        if self.serial.in_waiting:
-            line = self.serial.readline().decode('utf-8').strip()
+    # def read_serial(self):
+    #     if self.serial.in_waiting:
+    #         line = self.serial.readline().decode('utf-8').strip()
             
-            # Parse encoder data (format: "E<left_ticks>,<right_ticks>\n")
-            if line.startswith('E'):
-                try:
-                    left_ticks, right_ticks = map(int, line[1:].split(','))
-                    self.process_encoder_data(left_ticks, right_ticks)
-                except ValueError:
-                    self.get_logger().warn("Malformed encoder data")
+    #         # Parse encoder data (format: "E<left_ticks>,<right_ticks>\n")
+    #         if line.startswith('E'):
+    #             try:
+    #                 left_ticks, right_ticks = map(int, line[1:].split(','))
+    #                 self.process_encoder_data(left_ticks, right_ticks)
+    #             except ValueError:
+    #                 self.get_logger().warn("Malformed encoder data")
+    def read_serial(self):
+        try:
+            if self.serial.in_waiting:
+                line = self.serial.readline().decode('utf-8').strip()
+                if line.startswith('E'):
+                    try:
+                        left, right = map(int, line[1:].split(','))
+                        self.process_encoder_data(left, right)
+                    except ValueError:
+                        self.get_logger().warn(f"Malformed encoder data: {line}")
+        except serial.SerialException as e:
+            self.get_logger().error(f"Serial error: {e}")
+            # Attempt to reconnect
+            self.serial.close()
+            self.serial.open()
 
     def process_encoder_data(self, left_ticks, right_ticks):
         # Calculate wheel displacements (in meters)
