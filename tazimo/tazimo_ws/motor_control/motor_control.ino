@@ -18,6 +18,7 @@ Encoder enc1(2, 3); // Motor 1 encoder (interrupt pins)
 
 // ===== Constants =====
 const int BAUD_RATE = 9600;
+
 const int CONTROL_RATE = 50; // Hz (20ms interval)
 
 // ===== Global Variables =====
@@ -107,9 +108,7 @@ void updateMotors()
     speed1 = constrain(speed1, -1.0, 1.0);
     speed2 = constrain(speed2, -1.0, 1.0);
 
-    // OPTIONAL: Invert one motor to correct direction
-    speed2 = -speed2; // <-- Flip this motor's direction
-    // Motor 1 (convert -1.0->1.0 to PWM)
+      // Motor 1 (convert -1.0->1.0 to PWM)
     if (speed1 >= 0)
     {
         analogWrite(RPWM1, speed1 * 255);
@@ -121,17 +120,18 @@ void updateMotors()
         analogWrite(LPWM1, -speed1 * 255);
     }
 
-    // Motor 2
+    // Motor 2 (inverted)
     if (speed2 >= 0)
     {
-        analogWrite(RPWM2, speed2 * 255);
-        analogWrite(LPWM2, 0);
+    analogWrite(RPWM2, 0);
+    analogWrite(LPWM2, speed2 * 255);
     }
-    else
+    else 
     {
-        analogWrite(RPWM2, 0);
-        analogWrite(LPWM2, -speed2 * 255);
+    analogWrite(RPWM2, -speed2 * 255);
+    analogWrite(LPWM2, 0);
     }
+
 }
 
 // Send encoder data to ROS (format: "E<ticks1>,<ticks2>")
