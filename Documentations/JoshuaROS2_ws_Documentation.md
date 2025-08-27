@@ -48,32 +48,32 @@ The desired code may then be written.
 This project consisits of a cpp publisher that publishes random numbers between 1 and 10, and a python subscriber that reacts every time the published number is 7.
 _Creating the workspace_
 
-![alt text](<Screenshot 2025-06-10 125209.png>)
+<img width="459" height="94" alt="Screenshot 2025-06-10 125209" src="https://github.com/user-attachments/assets/4cddb0db-1ec2-45fe-9418-98ddf3e906db" />
 
 _Building and sourcing package_
 
-![alt text](<Screenshot 2025-06-10 125755.png>) 
+<img width="625" height="137" alt="Screenshot 2025-06-10 125755" src="https://github.com/user-attachments/assets/09188c12-1830-4db9-b4fd-eab182666b41" />
 
 _creating cpp publisher_
 
-![alt text](<Screenshot 2025-06-10 130537.png>)
+<img width="1238" height="664" alt="Screenshot 2025-06-10 130537" src="https://github.com/user-attachments/assets/f79808d1-08d8-42f8-8636-a5d09f2aaa5d" />
 
 _creating python subscriber_
 
-![alt text](<Screenshot 2025-06-10 130608.png>)
+<img width="1213" height="842" alt="Screenshot 2025-06-10 130608" src="https://github.com/user-attachments/assets/2db5f813-a020-4480-8a95-1c27bcd304b5" />
 
 _vs code_
 
-![alt text](<Screenshot 2025-06-10 131008.png>)
+<img width="421" height="449" alt="Screenshot 2025-06-10 131008" src="https://github.com/user-attachments/assets/1698a762-561e-49f8-adba-a7201f3ed598" />
 
 _Publisher code_
 
-![alt text](<Screenshot 2025-06-10 131725.png>)
+<img width="963" height="792" alt="Screenshot 2025-06-10 131725" src="https://github.com/user-attachments/assets/6d7bb0a3-2971-4257-80cd-7db2c7737eda" />
 
 _Subscriber code_
 
-![alt text](<Screenshot 2025-06-10 131753.png>)
+<img width="868" height="728" alt="Screenshot 2025-06-10 131753" src="https://github.com/user-attachments/assets/78398b2f-3fe8-4fcd-8f1c-67c8fbd56e2b" />
 
 _project demo_
 
-![alt text](<Screenshot 2025-06-10 154222.png>)
+<img width="1233" height="552" alt="Screenshot 2025-06-10 154222" src="https://github.com/user-attachments/assets/c3685f1b-5b46-4f89-b726-d135c96ed612" />
